@@ -26,3 +26,5 @@ replay_pid*
 /ProyectosJAVA/SoftProg/target/
 /ProyectosJAVA/MAVEN/SoftProgDBManager/target/
 /ProyectosJAVA/MAVEN/SoftProgDA/target/
+!/ProyectosJAVA/ANT/SoftProg/src/pe/edu/pucp/softprog/lib/matematicas.jar
+!/ProyectosJAVA/ANT/SoftProg/src/pe/edu/pucp/softprog/lib/mysql-connector-j-9.4.0.jar
