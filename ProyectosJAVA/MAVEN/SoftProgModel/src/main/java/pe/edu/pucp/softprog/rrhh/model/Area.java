@@ -4,6 +4,14 @@ public class Area {
     private String nombre;
     private boolean activo;
 
+    public Area(){}
+    
+    public Area(String nombre) {
+        this.nombre = nombre;
+    }
+
+    
+    
     public int getIdArea() {
         return idArea;
     }

@@ -1,5 +1,6 @@
 package pe.edu.pucp.softprog.main;
 
+import com.mysql.cj.admin.ServerController;
 import pe.edu.pucp.softprog.rrhh.model.Persona;
 
 public class Principal {
@@ -11,6 +12,8 @@ public class Principal {
         Persona p = new Persona();
         p.setNombre("PEDRO");
         p.edad = 10;
+        
+        ServerController obj;
         
     }
 }
