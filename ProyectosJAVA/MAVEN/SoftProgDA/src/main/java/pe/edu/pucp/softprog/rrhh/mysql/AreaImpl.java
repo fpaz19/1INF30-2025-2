@@ -1,6 +1,8 @@
 package pe.edu.pucp.softprog.rrhh.mysql;
 
 import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import pe.edu.pucp.softprog.config.DBManager;
@@ -12,16 +14,16 @@ public class AreaImpl implements AreaDAO{
     private Connection con;
     private Statement st;
     private DBManager obj;
+    private ResultSet rs;
     
     @Override
     public int insertar(Area area) {
         int resultado = 0;
         try{
-            obj = new DBManager();
-            con = obj.getConnection();
+            con = DBManager.getInstance().getConnection();
             st = con.createStatement();
             String sql = 
-                    "INSERT INTOarea(nombre,activa)"
+                    "INSERT INTO area(nombre,activa)"
                     + "VALUES('" + area.getNombre() 
                     + "',1)";
             st.executeUpdate(sql);
@@ -47,7 +49,26 @@ public class AreaImpl implements AreaDAO{
 
     @Override
     public Area obtenerPorId(int idArea) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        Area area = new Area();
+        try{
+            con = DBManager.getInstance().getConnection();
+            st = con.createStatement();
+            String sql = 
+                    "SELECT id_area, nombre, activa FROM "
+                    + "area WHERE id_area =" + idArea;
+            rs = st.executeQuery(sql);
+            if(rs.next()){
+                area.setIdArea(rs.getInt("id_area"));
+                area.setNombre(rs.getString("nombre"));
+                area.setActivo(rs.getBoolean("activa"));
+            }
+        }catch(SQLException ex){
+            System.out.println("Error al insertar: "
+            + ex.getMessage());
+        }finally{
+            DBManager.getInstance().cerrarConexion();
+        }
+        return area;
     }
 
     @Override
