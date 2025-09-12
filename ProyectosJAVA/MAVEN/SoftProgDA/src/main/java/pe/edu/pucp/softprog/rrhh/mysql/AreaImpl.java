@@ -4,67 +4,65 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.sql.Types;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import pe.edu.pucp.softprog.config.DBManager;
 import pe.edu.pucp.softprog.rrhh.dao.AreaDAO;
 import pe.edu.pucp.softprog.rrhh.model.Area;
 
 public class AreaImpl implements AreaDAO{
 
-    private Connection con;
-    private Statement st;
-    private DBManager obj;
     private ResultSet rs;
     
     @Override
     public int insertar(Area area) {
-        int resultado = 0;
-        try{
-            con = DBManager.getInstance().getConnection();
-            st = con.createStatement();
-            String sql = 
-                    "INSERT INTO area(nombre,activa)"
-                    + "VALUES('" + area.getNombre() 
-                    + "',1)";
-            st.executeUpdate(sql);
-            resultado = 1;
-        }catch(Exception ex){
-            System.out.println("Error al insertar: "
-            + ex.getMessage());
-        }finally{
-            obj.cerrarConexion();
-        }
-        return resultado;
+        Map<Integer,Object> parametrosSalida = new HashMap<>();
+        Map<Integer,Object> parametrosEntrada = new HashMap<>();
+        parametrosSalida.put(1, Types.INTEGER);
+        parametrosEntrada.put(2, area.getNombre());
+        DBManager.getInstance().ejecutarProcedimiento("INSERTAR_AREA", parametrosEntrada, parametrosSalida);
+        area.setIdArea((int) parametrosSalida.get(1));
+        System.out.println("Se ha realizado el registro del area");
+        return area.getIdArea();
     }
 
     @Override
     public int modificar(Area area) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        Map<Integer, Object> parametrosEntrada = new HashMap<>();
+        parametrosEntrada.put(1, area.getIdArea());
+        parametrosEntrada.put(2, area.getNombre());
+        int resultado = DBManager.getInstance().ejecutarProcedimiento("MODIFICAR_AREA", parametrosEntrada, null);
+        System.out.println("Se ha realizado la modificacion del area");
+        return resultado;
     }
 
     @Override
     public int eliminar(int idArea) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        Map<Integer, Object> parametrosEntrada = new HashMap<>();
+        parametrosEntrada.put(1, idArea);
+        int resultado = DBManager.getInstance().ejecutarProcedimiento("ELIMINAR_AREA", parametrosEntrada, null);
+        System.out.println("Se ha realizado la eliminacion del area");
+        return resultado;
     }
 
     @Override
     public Area obtenerPorId(int idArea) {
-        Area area = new Area();
+        Area area = null;
+        Map<Integer, Object> parametrosEntrada = new HashMap<>();
+        parametrosEntrada.put(1, idArea);
+        rs = DBManager.getInstance().ejecutarProcedimientoLectura("OBTENER_AREA_X_ID", parametrosEntrada);
+        System.out.println("Lectura de area...");
         try{
-            con = DBManager.getInstance().getConnection();
-            st = con.createStatement();
-            String sql = 
-                    "SELECT id_area, nombre, activa FROM "
-                    + "area WHERE id_area =" + idArea;
-            rs = st.executeQuery(sql);
             if(rs.next()){
+                area = new Area();
                 area.setIdArea(rs.getInt("id_area"));
                 area.setNombre(rs.getString("nombre"));
-                area.setActivo(rs.getBoolean("activa"));
+                area.setActivo(true);
             }
         }catch(SQLException ex){
-            System.out.println("Error al insertar: "
-            + ex.getMessage());
+            System.out.println("ERROR: " + ex.getMessage());
         }finally{
             DBManager.getInstance().cerrarConexion();
         }
@@ -73,7 +71,24 @@ public class AreaImpl implements AreaDAO{
 
     @Override
     public ArrayList<Area> listarTodos() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        ArrayList<Area> areas = null;
+        rs = DBManager.getInstance().ejecutarProcedimientoLectura("LISTAR_AREAS_TODAS", null);
+        System.out.println("Lectura de todas las areas...");
+        try{
+            while(rs.next()){
+                if(areas == null) areas = new ArrayList<>();
+                Area area = new Area();
+                area.setIdArea(rs.getInt("id_area"));
+                area.setNombre(rs.getString("nombre"));
+                area.setActivo(true);
+                areas.add(area);
+            }
+        }catch(SQLException ex){
+            System.out.println("ERROR: " + ex.getMessage());
+        }finally{
+            DBManager.getInstance().cerrarConexion();
+        }
+        return areas;
     }
     
 }

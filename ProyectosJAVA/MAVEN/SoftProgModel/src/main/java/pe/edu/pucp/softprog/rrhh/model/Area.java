@@ -9,8 +9,6 @@ public class Area {
     public Area(String nombre) {
         this.nombre = nombre;
     }
-
-    
     
     public int getIdArea() {
         return idArea;
@@ -35,6 +33,9 @@ public class Area {
     public void setActivo(boolean activo) {
         this.activo = activo;
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return "Area: " + "idArea = " + idArea + ", nombre = " + nombre + ", activo = " + activo;
+    }
 }

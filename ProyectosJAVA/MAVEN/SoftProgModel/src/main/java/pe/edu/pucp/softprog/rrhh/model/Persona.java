@@ -1,4 +1,5 @@
 package pe.edu.pucp.softprog.rrhh.model;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 public class Persona {
     private int idPersona;
@@ -8,6 +9,23 @@ public class Persona {
     private char sexo;
     private Date fechaNacimiento;
 
+    public Persona(){}
+    public Persona(int idPersona, String dni, String nombre, String apellidoPaterno, char sexo, Date fechaNacimiento){
+        this.idPersona = idPersona;
+        this.dni = dni;
+        this.nombre = nombre;
+        this.apellidoPaterno = apellidoPaterno;
+        this.sexo = sexo;
+        this.fechaNacimiento = fechaNacimiento;
+    }
+    public Persona(String dni, String nombre, String apellidoPaterno, char sexo, Date fechaNacimiento){
+        this.dni = dni;
+        this.nombre = nombre;
+        this.apellidoPaterno = apellidoPaterno;
+        this.sexo = sexo;
+        this.fechaNacimiento = fechaNacimiento;
+    }
+    
     public int getIdPersona() {
         return idPersona;
     }
@@ -55,5 +73,22 @@ public class Persona {
     public void setFechaNacimiento(Date fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
+
+    @Override
+    public String toString() {
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+        String fechaNac = null;
+        try{
+            fechaNac = sdf.format(fechaNacimiento);
+        }catch(Exception ex){
+            System.out.println("Error convirtiendo fecha");
+        }
+        return idPersona + "\n" + 
+               "Nombre: " + nombre + "\n" +
+               "Apellido Paterno: " + apellidoPaterno + "\n" +
+               "Sexo: " + sexo + "\n" +
+               "Fecha de nacimiento: " + fechaNac;
+    }
+    
     
 }
