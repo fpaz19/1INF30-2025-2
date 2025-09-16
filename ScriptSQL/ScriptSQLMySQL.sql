@@ -1,7 +1,12 @@
+-- Eliminando Tablas
+DROP TABLE IF EXISTS linea_orden_venta;
+DROP TABLE IF EXISTS producto;
+DROP TABLE IF EXISTS orden_venta;
 DROP TABLE IF EXISTS empleado;
 DROP TABLE IF EXISTS area;
 DROP TABLE IF EXISTS cliente;
 DROP TABLE IF EXISTS persona;
+-- Creando Tablas
 CREATE TABLE area(
 	id_area INT AUTO_INCREMENT,
     nombre VARCHAR(75),
@@ -34,6 +39,37 @@ CREATE TABLE cliente(
     PRIMARY KEY(id_cliente),
     FOREIGN KEY(id_cliente) REFERENCES persona(id_persona)
 )ENGINE=InnoDB;
+CREATE TABLE orden_venta(
+	id_orden_venta INT AUTO_INCREMENT,
+    fid_empleado INT,
+    fid_cliente INT,
+    total DECIMAL(10,2),
+    fecha_hora DATETIME,
+    activa TINYINT,
+    PRIMARY KEY(id_orden_venta),
+    FOREIGN KEY(fid_empleado) REFERENCES empleado(id_empleado),
+    FOREIGN KEY(fid_cliente) REFERENCES cliente(id_cliente)
+)ENGINE=InnoDB;
+CREATE TABLE producto(
+	id_producto INT AUTO_INCREMENT,
+    nombre VARCHAR(100),
+    unidad_medida VARCHAR(75),
+    precio DECIMAL(10,2),
+    activo TINYINT,
+    PRIMARY KEY(id_producto)
+)ENGINE=InnoDB;
+CREATE TABLE linea_orden_venta(
+	id_linea_orden_venta INT AUTO_INCREMENT,
+    fid_orden_venta INT,
+    fid_producto INT,
+    cantidad INT,
+    subtotal DECIMAL(10,2),
+    activa TINYINT,
+    PRIMARY KEY(id_linea_orden_venta),
+    FOREIGN KEY(fid_orden_venta) REFERENCES orden_venta(id_orden_venta),
+    FOREIGN KEY(fid_producto) REFERENCES producto(id_producto)
+)ENGINE=InnoDB;
+-- Registros
 INSERT INTO area(nombre,activa) VALUES('CONTABILIDAD',1);
 -- Borrando procedimientos almacenados
 DROP PROCEDURE IF EXISTS INSERTAR_AREA;
@@ -53,6 +89,8 @@ DROP PROCEDURE IF EXISTS MODIFICAR_CLIENTE;
 DROP PROCEDURE IF EXISTS ELIMINAR_CLIENTE;
 DROP PROCEDURE IF EXISTS OBTENER_CLIENTE_X_ID;
 DROP PROCEDURE IF EXISTS LISTAR_CLIENTES_TODOS;
+
+DROP PROCEDURE IF EXISTS INSERTAR_PRODUCTO;
 DELIMITER $
 CREATE PROCEDURE INSERTAR_AREA(
 	OUT _id_area INT,
@@ -165,6 +203,40 @@ CREATE PROCEDURE OBTENER_CLIENTE_X_ID(
 BEGIN
 	SELECT c.id_cliente, p.DNI, p.nombre, p.apellido_paterno, p.sexo, p.fecha_nacimiento, c.linea_credito, c.categoria FROM persona p INNER JOIN cliente c ON p.id_persona = c.id_cliente WHERE c.id_cliente = _id_cliente;
 END$
+
+CREATE PROCEDURE INSERTAR_PRODUCTO(
+	OUT _id_producto INT,
+    IN _nombre VARCHAR(100),
+    IN _unidad_medida VARCHAR(75),
+    IN _precio DECIMAL(10,2)
+)
+BEGIN
+	INSERT INTO producto(nombre,unidad_medida,precio,activo) VALUES(_nombre,_unidad_medida,_precio,1);
+    SET _id_producto = @@last_insert_id;
+END$
 -- Insertando registros
-CALL INSERTAR_AREA(@id_area1,'PRODUCCION');
-CALL INSERTAR_EMPLEADO(@id_empleado1,@id_area1,'26541190','CARLOS','CARBAJAL','M','1993-10-10','JEFE DE PRODUCCION',1999.22);
+CALL INSERTAR_AREA(@id_area1,'VENTAS');
+CALL INSERTAR_AREA(@id_area2,'CONTABILIDAD');
+CALL INSERTAR_AREA(@id_area3,'FINANZAS');
+
+CALL INSERTAR_EMPLEADO(@id_empleado1,@id_area1,'28761129','MANUEL','GONZALES','M','1986-11-01','VENDEDOR',2300.00);
+CALL INSERTAR_EMPLEADO(@id_empleado2,@id_area2,'27519001','KARLA','CORDOVA','F','1993-08-17','JEFE DE VENTAS',1650.00);
+CALL INSERTAR_EMPLEADO(@id_empleado3,@id_area1,'12987109','KAREN','DIAZ','F','1986-11-01','CAJERA',1500.00);
+CALL INSERTAR_EMPLEADO(@id_empleado4,@id_area1,'29121803','JUAN','ARENAS','M','1991-02-19','VENDEDOR','1750.00');
+CALL INSERTAR_EMPLEADO(@id_empleado5,@id_area2,'17300362','MANUEL','CARRASCO','M','1982-07-18','ANALISTA CONTABLE','2500.00');
+CALL INSERTAR_EMPLEADO(@id_empleado6,@id_area2,'18762501','KAREN','MARTINEZ','F','1976-01-14','JEFE DE CONTABILIDAD','3200.00');
+
+CALL INSERTAR_CLIENTE(@id_cliente1,'87261109','FATIMA','MORALES','F','1992-10-04',1500.50,'Platinum');
+CALL INSERTAR_CLIENTE(@id_cliente2,'13007065','CAROLINA','SALVADOR','F','1992-11-22',2500.00,'Platinum');
+CALL INSERTAR_CLIENTE(@id_cliente3,'18732004','DANIELA','VILLANUEVA','F','1984-03-15',1000.00,'Clasico');
+CALL INSERTAR_CLIENTE(@id_cliente4,'39871002','HUGO','VALDIVIA','M','1992-03-03',2000.00,'Clasico');
+CALL INSERTAR_CLIENTE(@id_cliente5,'28709982','OSCAR','CARRANZA','M','1993-10-30',2000.00,'VIP');
+CALL INSERTAR_CLIENTE(@id_cliente6,'10920091','ANGELA','GUEVARA','F','1988-03-13',3000.00,'Platinum');
+CALL INSERTAR_CLIENTE(@id_cliente7,'33620929','PEDRO','MENDOZA','M','1984-10-09',3700.00,'VIP');
+CALL INSERTAR_CLIENTE(@id_cliente8,'17200928','CARMEN','GAVIDIA','F','1981-02-15',1430.00,'Clasico');
+CALL INSERTAR_CLIENTE(@id_cliente9,'28779283','PIERINA','RUIZ','F','1984-11-23',3345.00,'VIP');
+
+CALL INSERTAR_PRODUCTO(@id_producto1,'GASEOSA INKA KOLA','500 ML',2.70);
+CALL INSERTAR_PRODUCTO(@id_producto2,'GASEOSA COCA COLA','1.5 LT',5.90);
+CALL INSERTAR_PRODUCTO(@id_producto3,'DETERGENTE LIQUIDO BOLIVAR','940 ML',16.00);
+CALL INSERTAR_PRODUCTO(@id_producto4,'LAVAVAJILLAS EN PASTA LIMON SAPOLIO','900 GR',6.10);

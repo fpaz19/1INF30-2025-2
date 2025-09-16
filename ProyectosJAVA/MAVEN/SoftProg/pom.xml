@@ -22,6 +22,13 @@
             <artifactId>SoftProgDA</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!-- Dependencia de MSSQL -->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>13.2.0.jre11</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

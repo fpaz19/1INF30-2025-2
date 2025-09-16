@@ -30,7 +30,16 @@ public class DBManager {
             System.out.println("Error leyendo el archivo de datos de conexion: " + ex.getMessage());
         }
         this.database = datos.getProperty("database");
-        this.url = "jdbc:mysql://" + datos.getProperty("hostname") + "/" + this.database;
+        if(datos.getProperty("tipoBD").equals("mysql"))
+            this.url = "jdbc:mysql://" + datos.getProperty("hostnamemysql") + "/" + this.database;
+        else
+            this.url =
+                "jdbc:sqlserver://"
+                + datos.getProperty("hostnamemssql") +
+                ";databaseName=" + this.database +
+                ";encrypt=false;trustServerCertificate="
+                + "true;integratedSecurity=false;";
+                
         this.user = datos.getProperty("usuario");
         this.password = datos.getProperty("password");
         
