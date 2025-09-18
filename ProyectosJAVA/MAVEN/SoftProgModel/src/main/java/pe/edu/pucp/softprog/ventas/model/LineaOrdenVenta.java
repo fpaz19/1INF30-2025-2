@@ -49,4 +49,8 @@ public class LineaOrdenVenta {
         this.activo = activo;
     }
     
+    public void calcularSubtotal(){
+        subtotal = cantidad * producto.getPrecio();
+    }
+    
 }

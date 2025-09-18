@@ -91,6 +91,7 @@ DROP PROCEDURE IF EXISTS OBTENER_CLIENTE_X_ID;
 DROP PROCEDURE IF EXISTS LISTAR_CLIENTES_TODOS;
 
 DROP PROCEDURE IF EXISTS INSERTAR_PRODUCTO;
+DROP PROCEDURE IF EXISTS LISTAR_PRODUCTOS_TODOS;
 DELIMITER $
 CREATE PROCEDURE INSERTAR_AREA(
 	OUT _id_area INT,
@@ -213,6 +214,33 @@ CREATE PROCEDURE INSERTAR_PRODUCTO(
 BEGIN
 	INSERT INTO producto(nombre,unidad_medida,precio,activo) VALUES(_nombre,_unidad_medida,_precio,1);
     SET _id_producto = @@last_insert_id;
+END$
+DELIMITER $
+CREATE PROCEDURE LISTAR_PRODUCTOS_TODOS()
+BEGIN
+	SELECT id_producto, nombre, unidad_medida, precio FROM producto WHERE activo = 1;
+END$
+DELIMITER $
+CREATE PROCEDURE INSERTAR_ORDEN_VENTA(
+	OUT _id_orden_venta INT,
+    IN _fid_empleado INT,
+    IN _fid_cliente INT,
+    IN _total DECIMAL(10,2)
+)
+BEGIN
+	INSERT INTO orden_venta(fid_empleado,fid_cliente,total,fecha_hora,activa) VALUES(_fid_empleado,_fid_cliente,_total,now() - INTERVAL 5 HOUR,1);
+    SET _id_orden_venta = @@last_insert_id;
+END$
+CREATE PROCEDURE INSERTAR_LINEA_ORDEN_VENTA(
+	OUT _id_linea_orden_venta INT,
+    IN _fid_orden_venta INT,
+    IN _fid_producto INT,
+    IN _cantidad INT,
+    IN _subtotal DECIMAL(10,2)
+)
+BEGIN
+	INSERT INTO linea_orden_venta(fid_orden_venta,fid_producto,cantidad,subtotal,activa) VALUES(_fid_orden_venta,_fid_producto,_cantidad,_subtotal,1);
+    SET _id_linea_orden_venta = @@last_insert_id;
 END$
 -- Insertando registros
 CALL INSERTAR_AREA(@id_area1,'VENTAS');

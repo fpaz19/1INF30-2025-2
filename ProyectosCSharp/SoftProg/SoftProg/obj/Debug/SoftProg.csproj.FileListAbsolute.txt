@@ -1,0 +1,11 @@
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\obj\Debug\SoftProg.csproj.AssemblyReference.cache
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\obj\Debug\SoftProg.csproj.CoreCompileInputs.cache
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\bin\Debug\SoftProg.exe.config
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\bin\Debug\SoftProg.exe
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\bin\Debug\SoftProg.pdb
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\bin\Debug\MySql.Data.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\bin\Debug\System.Memory.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\bin\Debug\System.Numerics.Vectors.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\obj\Debug\SoftProg.csproj.Up2Date
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\obj\Debug\SoftProg.exe
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProg\obj\Debug\SoftProg.pdb

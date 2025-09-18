@@ -168,4 +168,61 @@ public class DBManager {
             parametrosSalida.put(posicion, value);
         }
     }
+    
+    //Para transacciones
+    
+    public void iniciarTransaccion() throws SQLException{
+        con = getConnection();
+        con.setAutoCommit(false);
+    }
+    
+    public void cancelarTransaccion(){
+        try{
+            con.rollback();
+        }catch(SQLException ex){
+            System.out.println(ex.getMessage());
+        }finally{
+            cerrarConexion();
+        }
+    }
+    
+    public void confirmarTransaccion() throws SQLException{
+        con.commit();
+    }
+    
+    public CallableStatement formarLlamadaProcedimientoTransaccion(String nombreProcedimiento, Map<Integer, Object> parametrosEntrada, Map<Integer, Object> parametrosSalida) throws SQLException{
+        StringBuilder call = new StringBuilder("{call " + nombreProcedimiento + "(");
+        int cantParametrosEntrada = 0;
+        int cantParametrosSalida = 0;
+        if(parametrosEntrada!=null) cantParametrosEntrada = parametrosEntrada.size();
+        if(parametrosSalida!=null) cantParametrosSalida = parametrosSalida.size();
+        int numParams =  cantParametrosEntrada + cantParametrosSalida;
+        for (int i = 0; i < numParams; i++) {
+            call.append("?");
+            if (i < numParams - 1) {
+                call.append(",");
+            }
+        }
+        call.append(")}");
+        return con.prepareCall(call.toString());
+    }
+    
+    public int ejecutarProcedimientoTransaccion(String nombreProcedimiento, Map<Integer, Object> parametrosEntrada, Map<Integer, Object> parametrosSalida) {
+        int resultado = 0;
+        try{
+            CallableStatement cst = formarLlamadaProcedimientoTransaccion(nombreProcedimiento, parametrosEntrada, parametrosSalida);
+            if(parametrosEntrada != null)
+                registrarParametrosEntrada(cst, parametrosEntrada);
+            if(parametrosSalida != null)
+                registrarParametrosSalida(cst, parametrosSalida);
+        
+            resultado = cst.executeUpdate();
+        
+            if(parametrosSalida != null)
+                obtenerValoresSalida(cst, parametrosSalida);
+        }catch(SQLException ex){
+            System.out.println("Error ejecutando procedimiento almacenado: " + ex.getMessage());
+        }
+        return resultado;
+    }
 }
