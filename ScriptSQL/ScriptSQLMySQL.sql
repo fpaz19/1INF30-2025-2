@@ -92,6 +92,13 @@ DROP PROCEDURE IF EXISTS LISTAR_CLIENTES_TODOS;
 
 DROP PROCEDURE IF EXISTS INSERTAR_PRODUCTO;
 DROP PROCEDURE IF EXISTS LISTAR_PRODUCTOS_TODOS;
+
+DROP PROCEDURE IF EXISTS INSERTAR_ORDEN_VENTA;
+DROP PROCEDURE IF EXISTS MODIFICAR_ORDEN_VENTA;
+DROP PROCEDURE IF EXISTS ELIMINAR_ORDEN_VENTA;
+DROP PROCEDURE IF EXISTS OBTENER_ORDEN_VENTA_X_ID;
+DROP PROCEDURE IF EXISTS INSERTAR_LINEA_ORDEN_VENTA;
+DROP PROCEDURE IF EXISTS LISTAR_LINEAS_ORDEN_VENTA_X_ID_ORDEN_VENTA;
 DELIMITER $
 CREATE PROCEDURE INSERTAR_AREA(
 	OUT _id_area INT,
@@ -231,6 +238,24 @@ BEGIN
 	INSERT INTO orden_venta(fid_empleado,fid_cliente,total,fecha_hora,activa) VALUES(_fid_empleado,_fid_cliente,_total,now() - INTERVAL 5 HOUR,1);
     SET _id_orden_venta = @@last_insert_id;
 END$
+CREATE PROCEDURE MODIFICAR_ORDEN_VENTA(
+	IN _id_orden_venta INT,
+    IN _fid_empleado INT,
+    IN _fid_cliente INT,
+    IN _total DECIMAL(10,2)
+)
+BEGIN
+	UPDATE linea_orden_venta SET activa = 0 WHERE fid_orden_venta = _id_orden_venta;
+	UPDATE orden_venta SET fid_empleado = _fid_empleado,fid_cliente = _fid_cliente, total = _total, fecha_hora = now() - INTERVAL 5 HOUR WHERE id_orden_venta = _id_orden_venta;
+END$
+CREATE PROCEDURE ELIMINAR_ORDEN_VENTA(
+	IN _id_orden_venta INT
+)
+BEGIN
+	UPDATE orden_venta SET activa = 0 WHERE id_orden_venta = _id_orden_venta;
+    UPDATE linea_orden_venta SET activa = 0 WHERE fid_orden_venta = _id_orden_venta;
+END$
+DELIMITER $
 CREATE PROCEDURE INSERTAR_LINEA_ORDEN_VENTA(
 	OUT _id_linea_orden_venta INT,
     IN _fid_orden_venta INT,
@@ -241,6 +266,19 @@ CREATE PROCEDURE INSERTAR_LINEA_ORDEN_VENTA(
 BEGIN
 	INSERT INTO linea_orden_venta(fid_orden_venta,fid_producto,cantidad,subtotal,activa) VALUES(_fid_orden_venta,_fid_producto,_cantidad,_subtotal,1);
     SET _id_linea_orden_venta = @@last_insert_id;
+END$
+DELIMITER $
+CREATE PROCEDURE OBTENER_ORDEN_VENTA_X_ID(
+	IN _id_orden_venta INT
+)
+BEGIN
+	SELECT ov.id_orden_venta, e.id_empleado, p1.DNI as dni_empleado, p1.nombre as nombre_empleado, p1.apellido_paterno as apellido_paterno_empleado, p1.fecha_nacimiento as fecha_nacimiento_empleado, p1.sexo as sexo_empleado, e.cargo as cargo_empleado, a.id_area, a.nombre as nombre_area, e.sueldo as sueldo_empleado, c.id_cliente, p2.DNI as dni_cliente, p2.nombre as nombre_cliente, p2.apellido_paterno as apellido_paterno_cliente, p2.fecha_nacimiento as fecha_nacimiento_cliente, p2.sexo as sexo_cliente, c.categoria as categoria_cliente, c.linea_credito as linea_credito_cliente, ov.total, ov.fecha_hora FROM orden_venta ov INNER JOIN empleado e ON ov.fid_empleado = e.id_empleado INNER JOIN persona p1 ON p1.id_persona = e.id_empleado INNER JOIN area a ON a.id_area = e.fid_area INNER JOIN cliente c ON c.id_cliente = ov.fid_cliente INNER JOIN persona p2 ON p2.id_persona = c.id_cliente WHERE ov.id_orden_venta = _id_orden_venta;
+END$
+CREATE PROCEDURE LISTAR_LINEAS_ORDEN_VENTA_X_ID_ORDEN_VENTA(
+	IN _id_orden_venta INT
+)
+BEGIN
+	SELECT lov.id_linea_orden_venta, lov.fid_orden_venta, p.id_producto, p.nombre, p.precio, p.unidad_medida, lov.cantidad, lov.subtotal FROM linea_orden_venta lov INNER JOIN producto p ON lov.fid_producto = p.id_producto WHERE lov.fid_orden_venta = _id_orden_venta AND activa = 1;
 END$
 -- Insertando registros
 CALL INSERTAR_AREA(@id_area1,'VENTAS');

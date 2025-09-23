@@ -52,5 +52,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SoftProgBusiness\SoftProgBusiness.csproj">
+      <Project>{785B9E99-F803-450D-A7E0-5D49AE87AF56}</Project>
+      <Name>SoftProgBusiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SoftProgModel\SoftProgModel.csproj">
+      <Project>{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}</Project>
+      <Name>SoftProgModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SoftProgPersistance\SoftProgPersistance.csproj">
+      <Project>{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}</Project>
+      <Name>SoftProgPersistance</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

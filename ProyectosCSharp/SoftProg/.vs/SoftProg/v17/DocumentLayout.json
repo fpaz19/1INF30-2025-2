@@ -3,20 +3,64 @@
   "WorkspaceRootPath": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AB10CE0-5201-445E-A8BD-9466E2403DB1}|SoftProg\\SoftProg.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AB10CE0-5201-445E-A8BD-9466E2403DB1}|SoftProg\\SoftProg.csproj|solutionrelative:softprog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogmodel\\rrhh\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogmodel\\rrhh\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|solutionrelative:softprogmodel\\rrhh\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogmodel\\rrhh\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogmodel\\rrhh\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|solutionrelative:softprogmodel\\rrhh\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogmodel\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|solutionrelative:softprogmodel\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogmodel\\rrhh\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|solutionrelative:softprogmodel\\rrhh\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogpersistance\\rrhh\\impl\\areaimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|solutionrelative:softprogpersistance\\rrhh\\impl\\areaimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogpersistance\\rrhh\\dao\\areadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|solutionrelative:softprogpersistance\\rrhh\\dao\\areadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogbusiness\\rrhh\\boi\\areaboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|solutionrelative:softprogbusiness\\rrhh\\boi\\areaboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogbusiness\\rrhh\\bo\\iempleadobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|solutionrelative:softprogbusiness\\rrhh\\bo\\iempleadobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogbusiness\\rrhh\\bo\\iareabo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|solutionrelative:softprogbusiness\\rrhh\\bo\\iareabo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogbusiness\\bo\\ibasebo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|solutionrelative:softprogbusiness\\bo\\ibasebo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BEB81FC-E3F8-4002-ADBF-B6EE606D2990}|SoftProgDBManager\\SoftProgDBManager.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BEB81FC-E3F8-4002-ADBF-B6EE606D2990}|SoftProgDBManager\\SoftProgDBManager.csproj|solutionrelative:softprogdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB10CE0-5201-445E-A8BD-9466E2403DB1}|SoftProg\\SoftProg.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB10CE0-5201-445E-A8BD-9466E2403DB1}|SoftProg\\SoftProg.csproj|solutionrelative:softprog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogbusiness\\rrhh\\boi\\empleadoboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|solutionrelative:softprogbusiness\\rrhh\\boi\\empleadoboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogpersistance\\rrhh\\impl\\empleadoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|solutionrelative:softprogpersistance\\rrhh\\impl\\empleadoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogpersistance\\rrhh\\dao\\empleadodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|solutionrelative:softprogpersistance\\rrhh\\dao\\empleadodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogpersistance\\dao\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|solutionrelative:softprogpersistance\\dao\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +70,196 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
+              "Title": "EmpleadoBOImpl.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgBusiness\\RRHH\\BOI\\EmpleadoBOImpl.cs",
+              "RelativeDocumentMoniker": "SoftProgBusiness\\RRHH\\BOI\\EmpleadoBOImpl.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgBusiness\\RRHH\\BOI\\EmpleadoBOImpl.cs",
+              "RelativeToolTip": "SoftProgBusiness\\RRHH\\BOI\\EmpleadoBOImpl.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA+wB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:44:51.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmpleadoBO.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgBusiness\\RRHH\\BO\\IEmpleadoBO.cs",
+              "RelativeDocumentMoniker": "SoftProgBusiness\\RRHH\\BO\\IEmpleadoBO.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgBusiness\\RRHH\\BO\\IEmpleadoBO.cs",
+              "RelativeToolTip": "SoftProgBusiness\\RRHH\\BO\\IEmpleadoBO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:44:19.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmpleadoImpl.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\RRHH\\Impl\\EmpleadoImpl.cs",
+              "RelativeDocumentMoniker": "SoftProgPersistance\\RRHH\\Impl\\EmpleadoImpl.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\RRHH\\Impl\\EmpleadoImpl.cs",
+              "RelativeToolTip": "SoftProgPersistance\\RRHH\\Impl\\EmpleadoImpl.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:40:02.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmpleadoDAO.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\RRHH\\DAO\\EmpleadoDAO.cs",
+              "RelativeDocumentMoniker": "SoftProgPersistance\\RRHH\\DAO\\EmpleadoDAO.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\RRHH\\DAO\\EmpleadoDAO.cs",
+              "RelativeToolTip": "SoftProgPersistance\\RRHH\\DAO\\EmpleadoDAO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:39:27.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgModel\\RRHH\\Empleado.cs",
+              "RelativeDocumentMoniker": "SoftProgModel\\RRHH\\Empleado.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgModel\\RRHH\\Empleado.cs",
+              "RelativeToolTip": "SoftProgModel\\RRHH\\Empleado.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAzwBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:35:30.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AreaBOImpl.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgBusiness\\RRHH\\BOI\\AreaBOImpl.cs",
+              "RelativeDocumentMoniker": "SoftProgBusiness\\RRHH\\BOI\\AreaBOImpl.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgBusiness\\RRHH\\BOI\\AreaBOImpl.cs",
+              "RelativeToolTip": "SoftProgBusiness\\RRHH\\BOI\\AreaBOImpl.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:24:43.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAreaBO.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgBusiness\\RRHH\\BO\\IAreaBO.cs",
+              "RelativeDocumentMoniker": "SoftProgBusiness\\RRHH\\BO\\IAreaBO.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgBusiness\\RRHH\\BO\\IAreaBO.cs",
+              "RelativeToolTip": "SoftProgBusiness\\RRHH\\BO\\IAreaBO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:23:46.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBaseBO.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgBusiness\\BO\\IBaseBO.cs",
+              "RelativeDocumentMoniker": "SoftProgBusiness\\BO\\IBaseBO.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgBusiness\\BO\\IBaseBO.cs",
+              "RelativeToolTip": "SoftProgBusiness\\BO\\IBaseBO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:21:53.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AreaImpl.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\RRHH\\Impl\\AreaImpl.cs",
+              "RelativeDocumentMoniker": "SoftProgPersistance\\RRHH\\Impl\\AreaImpl.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\RRHH\\Impl\\AreaImpl.cs",
+              "RelativeToolTip": "SoftProgPersistance\\RRHH\\Impl\\AreaImpl.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:15:43.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AreaDAO.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\RRHH\\DAO\\AreaDAO.cs",
+              "RelativeDocumentMoniker": "SoftProgPersistance\\RRHH\\DAO\\AreaDAO.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\RRHH\\DAO\\AreaDAO.cs",
+              "RelativeToolTip": "SoftProgPersistance\\RRHH\\DAO\\AreaDAO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:14:28.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IDAO.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\DAO\\IDAO.cs",
+              "RelativeDocumentMoniker": "SoftProgPersistance\\DAO\\IDAO.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\DAO\\IDAO.cs",
+              "RelativeToolTip": "SoftProgPersistance\\DAO\\IDAO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:13:02.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBManager.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgDBManager\\DBManager.cs",
+              "RelativeDocumentMoniker": "SoftProgDBManager\\DBManager.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgDBManager\\DBManager.cs",
+              "RelativeToolTip": "SoftProgDBManager\\DBManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA1wCMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:11:54.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Area.cs",
               "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgModel\\RRHH\\Area.cs",
               "RelativeDocumentMoniker": "SoftProgModel\\RRHH\\Area.cs",
               "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgModel\\RRHH\\Area.cs",
               "RelativeToolTip": "SoftProgModel\\RRHH\\Area.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T20:44:22.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgModel\\RRHH\\Persona.cs",
               "RelativeDocumentMoniker": "SoftProgModel\\RRHH\\Persona.cs",
               "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgModel\\RRHH\\Persona.cs",
               "RelativeToolTip": "SoftProgModel\\RRHH\\Persona.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwBgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAvwCQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T20:41:12.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgModel\\Class1.cs",
-              "RelativeDocumentMoniker": "SoftProgModel\\Class1.cs",
-              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgModel\\Class1.cs",
-              "RelativeToolTip": "SoftProgModel\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T20:40:28.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProg\\Program.cs",
               "RelativeDocumentMoniker": "SoftProg\\Program.cs",
               "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProg\\Program.cs",
               "RelativeToolTip": "SoftProg\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAxwBoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA0wCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T20:39:13.847Z",
               "EditorCaption": ""

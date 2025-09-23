@@ -9,6 +9,7 @@
         <module>../SoftProgModel</module>
         <module>../SoftProgDBManager</module>
         <module>../SoftProgDA</module>
+        <module>../SoftProgBusiness</module>
         <module>../SoftProg</module>
     </modules>
     <properties>

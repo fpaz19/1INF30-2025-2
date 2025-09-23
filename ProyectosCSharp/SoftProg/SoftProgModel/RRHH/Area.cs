@@ -12,6 +12,12 @@ namespace SoftProgModel.RRHH
         private String nombre;
         private bool activa;
 
+        public Area() { }
+        public Area(string nombre)
+        {
+            this.nombre = nombre;
+        }
+
         public int IdArea { get => idArea; set => idArea = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public bool Activa { get => activa; set => activa = value; }

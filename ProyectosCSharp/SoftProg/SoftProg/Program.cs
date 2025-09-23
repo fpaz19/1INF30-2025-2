@@ -1,4 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
+using SoftProgBusiness.RRHH.BO;
+using SoftProgBusiness.RRHH.BOI;
+using SoftProgModel.RRHH;
+using SoftProgPersistance.RRHH.DAO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,22 +15,26 @@ namespace SoftProg
     {
         static void Main(string[] args)
         {
-            String cadena
-                = "server=database-prog3-0681.czyu42uq2yue.us-east-1." +
-                "rds.amazonaws.com;" +
-                "port=3306;" +
-                "user=admin;" +
-                "password=1inf300681prog3;" +
-                "database=prog3;";
+            Area a = new
+                Area("AREA C#");
+            IAreaBO boArea = new AreaBOImpl();
+            boArea.insertar(a);
 
-            MySqlConnection con = new 
-                MySqlConnection(cadena);
+            Area b = new Area();
+            b.IdArea = 2;
 
-            con.Open();
+            Empleado
+                emp
+                = new Empleado("27651112",
+                "MARIA",
+                "FERNANDEZ", 'F',
+                new DateTime(1990, 10, 1),
+                b, "JEFE DE VENTAS",
+                1900.00);
 
-            
-
-            System.Console.WriteLine("Se ha conectado");
+            IEmpleadoBO boEmpleado
+                = new EmpleadoBOImpl();
+            boEmpleado.insertar(emp);
 
         }
     }
