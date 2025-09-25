@@ -1,0 +1,16 @@
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\SoftProgBusiness.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\SoftProgBusiness.pdb
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\SoftProgModel.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\SoftProgPersistance.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\MySql.Data.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\SoftProgDBManager.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\System.Memory.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\System.Numerics.Vectors.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\SoftProgModel.pdb
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\SoftProgPersistance.pdb
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\bin\Debug\SoftProgDBManager.pdb
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\obj\Debug\SoftProgBusiness.csproj.AssemblyReference.cache
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\obj\Debug\SoftProgBusiness.csproj.CoreCompileInputs.cache
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\obj\Debug\SoftProg.23EAD325.Up2Date
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\obj\Debug\SoftProgBusiness.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgBusiness\obj\Debug\SoftProgBusiness.pdb

@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,8 +15,7 @@ namespace SoftProgPersistance.RRHH.Impl
 {
     public class AreaImpl : AreaDAO
     {
-        private MySqlConnection con;
-        private MySqlCommand cmd;
+
         public int eliminar(int idArea)
         {
             throw new NotImplementedException();
@@ -23,17 +23,12 @@ namespace SoftProgPersistance.RRHH.Impl
 
         public int insertar(Area area)
         {
-            int resultado = 0;
-            con = DBManager.Instance.AbrirConexion();
-            cmd = new MySqlCommand();
-            cmd.Connection = con;
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.CommandText = "INSERTAR_AREA";
-            cmd.Parameters.Add("_id_area", MySqlDbType.Int32).Direction = ParameterDirection.Output;
-            cmd.Parameters.AddWithValue("_nombre", area.Nombre);
-            resultado = cmd.ExecuteNonQuery();
-            DBManager.Instance.CerrarConexion();
-            return resultado;
+            DbParameter[] parametros = new DbParameter[2];
+            parametros[0] = DBManager.Instance.CreateParam("_id_area",DbType.Int32,null,ParameterDirection.Output);
+            parametros[1] = DBManager.Instance.CreateParam("_nombre", DbType.String, area.Nombre, ParameterDirection.Input);
+            DBManager.Instance.EjecutarProcedimiento("INSERTAR_AREA", parametros);
+            area.IdArea = Convert.ToInt32(parametros[0].Value);
+            return area.IdArea;
         }
 
         public BindingList<Area> listarTodos()
@@ -43,7 +38,10 @@ namespace SoftProgPersistance.RRHH.Impl
 
         public int modificar(Area area)
         {
-            throw new NotImplementedException();
+            DbParameter[] parametros = new DbParameter[2];
+            parametros[0] = DBManager.Instance.CreateParam("_id_area", DbType.Int32, area.IdArea, ParameterDirection.Input);
+            parametros[1] = DBManager.Instance.CreateParam("_nombre", DbType.String, area.Nombre, ParameterDirection.Input);
+            return DBManager.Instance.EjecutarProcedimiento("MODIFICAR_AREA", parametros);
         }
 
         public Area obtenerPorId(int idArea)

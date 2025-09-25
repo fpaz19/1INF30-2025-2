@@ -5,37 +5,40 @@ using SoftProgModel.RRHH;
 using SoftProgPersistance.RRHH.DAO;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SoftProg
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Area a = new
-                Area("AREA C#");
+            //Area a = new Area("AREA C#");
             IAreaBO boArea = new AreaBOImpl();
-            boArea.insertar(a);
+            //boArea.insertar(a);
 
-            Area b = new Area();
-            b.IdArea = 2;
+            //Area b = new Area();
+            //b.IdArea = 2;
 
-            Empleado
-                emp
-                = new Empleado("27651112",
-                "MARIA",
-                "FERNANDEZ", 'F',
-                new DateTime(1990, 10, 1),
-                b, "JEFE DE VENTAS",
-                1900.00);
+            //Empleado emp = new Empleado("27651112","MARIA","FERNANDEZ",'F',new DateTime(1990, 10, 1),b, "JEFE DE VENTAS",1900.00);
 
-            IEmpleadoBO boEmpleado
-                = new EmpleadoBOImpl();
-            boEmpleado.insertar(emp);
+            //IEmpleadoBO boEmpleado = new EmpleadoBOImpl();
+            //boEmpleado.insertar(emp);
 
+            BindingList<Area>
+                areas = boArea.listarTodos();
+            foreach (Area area in areas)
+            {
+                System.Console.WriteLine(
+                    area.IdArea + ". " +
+                    area.Nombre);
+            }
+
+            areas[0].Nombre = "AREA MODIFICADA";
+            boArea.modificar(areas[0]);
         }
     }
 }

@@ -32,12 +32,13 @@ namespace SoftProgBusiness.RRHH.BOI
 
         public BindingList<Area> listarTodos()
         {
-            throw new NotImplementedException();
+            return daoArea.listarTodos();
         }
 
-        public int modificar(Area objeto)
+        public int modificar(Area area)
         {
-            throw new NotImplementedException();
+            validar(area);
+            return daoArea.modificar(area);
         }
 
         public Area obtenerPorId(int idObjeto)

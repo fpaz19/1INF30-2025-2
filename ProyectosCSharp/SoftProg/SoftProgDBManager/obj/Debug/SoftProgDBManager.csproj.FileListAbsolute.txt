@@ -1,0 +1,10 @@
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgDBManager\bin\Debug\SoftProgDBManager.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgDBManager\bin\Debug\SoftProgDBManager.pdb
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgDBManager\bin\Debug\MySql.Data.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgDBManager\bin\Debug\System.Memory.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgDBManager\bin\Debug\System.Numerics.Vectors.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgDBManager\obj\Debug\SoftProgDBManager.csproj.AssemblyReference.cache
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgDBManager\obj\Debug\SoftProgDBManager.csproj.CoreCompileInputs.cache
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgDBManager\obj\Debug\SoftProg.37367387.Up2Date
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgDBManager\obj\Debug\SoftProgDBManager.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgDBManager\obj\Debug\SoftProgDBManager.pdb

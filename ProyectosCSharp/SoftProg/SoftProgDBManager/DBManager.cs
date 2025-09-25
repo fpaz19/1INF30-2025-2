@@ -1,6 +1,9 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,18 +13,36 @@ namespace SoftProgDBManager
     public class DBManager
     {
         private static DBManager dbManager;
-        private MySqlConnection con;
-        private string cadena 
-                = "server=database-prog3-0681.czyu42uq2yue.us-east-1." +
-                "rds.amazonaws.com;" +
-                "port=3306;" +
-                "user=admin;" +
-                "password=1inf300681prog3;" +
-                "database=prog3;";
+        private DbConnection con;
+        private DbCommand cmd;
+
+        private string tipoBD;
+        private string server;
+        private string port;
+        private string user;
+        private string password;
+        private string database;
+
+        private string cadena;
+
+        private DbProviderFactory Factory => DbProviderFactories.GetFactory(tipoBD);
+
+        public bool esSqlServer => tipoBD == "System.Data.SqlClient";
+        public bool esMySql => tipoBD == "MySql.Data.MySqlClient";
 
         private DBManager()
         {
-            //leer los datos de conexion
+            server = ConfigurationManager.AppSettings["db.hostname"];
+            tipoBD = ConfigurationManager.AppSettings["db.provider"];
+            user = ConfigurationManager.AppSettings["db.username"];
+            password = ConfigurationManager.AppSettings["db.password"];
+            port = ConfigurationManager.AppSettings["db.port"];
+            database = ConfigurationManager.AppSettings["db.database"];
+            cadena = "server=" + server + ";" +
+                "user=" + user + ";" +
+                "password=" + password + ";" +
+                "database=" + database + ";" +
+                "port=" + port + ";";
         }
 
         public static DBManager Instance
@@ -33,12 +54,14 @@ namespace SoftProgDBManager
             }
         }
 
-        public MySqlConnection AbrirConexion()
+        public DbConnection AbrirConexion()
         {
             try
             {
-                con = new MySqlConnection(cadena);
-                con.Open();
+                con = Factory.CreateConnection();
+                con.ConnectionString = cadena;
+                if (con.State != ConnectionState.Open)
+                    con.Open();
             }catch(Exception ex)
             {
                 System.Console.WriteLine("Error al conectar con la BD: " + ex.Message);
@@ -48,7 +71,50 @@ namespace SoftProgDBManager
 
         public void CerrarConexion()
         {
-            con.Close();
+            if (con == null) return;
+            if (con.State != ConnectionState.Closed) con.Close();
+            con.Dispose();
         }
+
+        //Métodos para llamadas a Procedimientos Almacenados
+        public DbParameter CreateParam(string nombreLogico, DbType tipo, object valor, ParameterDirection direccion)
+        {
+            DbParameter p = Factory.CreateParameter();
+            p.ParameterName = nombreLogico;
+            p.DbType = tipo;
+            p.Direction = direccion;
+            p.Value = valor ?? DBNull.Value;
+            return p;
+        }
+
+        public string P(string nombreLogico)
+        {
+            return esSqlServer ? "@" + nombreLogico : nombreLogico;
+        }
+
+        public DbCommand CrearCommand(DbConnection con, string storedProcedure)
+        {
+            DbCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = storedProcedure;
+            return cmd;
+        }
+
+        public int EjecutarProcedimiento(string nombreSP, IList<DbParameter> parametros)
+        {
+            int resultado = 0;
+            DbConnection con = AbrirConexion();
+            DbCommand cmd = CrearCommand(con, nombreSP);
+            if (parametros != null && parametros.Count > 0)
+                foreach (DbParameter p in parametros)
+                {
+                    p.ParameterName = P(p.ParameterName);
+                    cmd.Parameters.Add(p);
+                }
+            resultado = cmd.ExecuteNonQuery();
+            return resultado;
+        }
+
+
     }
 }
