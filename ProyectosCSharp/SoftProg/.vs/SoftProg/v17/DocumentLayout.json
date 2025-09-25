@@ -7,23 +7,23 @@
       "RelativeMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|solutionrelative:softprogpersistance\\rrhh\\impl\\empleadoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AB10CE0-5201-445E-A8BD-9466E2403DB1}|SoftProg\\SoftProg.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9AB10CE0-5201-445E-A8BD-9466E2403DB1}|SoftProg\\SoftProg.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AB10CE0-5201-445E-A8BD-9466E2403DB1}|SoftProg\\SoftProg.csproj|solutionrelative:softprog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogbusiness\\rrhh\\boi\\empleadoboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogbusiness\\rrhh\\boi\\empleadoboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|solutionrelative:softprogbusiness\\rrhh\\boi\\empleadoboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogbusiness\\rrhh\\bo\\iempleadobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogbusiness\\rrhh\\bo\\iempleadobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{785B9E99-F803-450D-A7E0-5D49AE87AF56}|SoftProgBusiness\\SoftProgBusiness.csproj|solutionrelative:softprogbusiness\\rrhh\\bo\\iempleadobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogpersistance\\rrhh\\impl\\areaimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogpersistance\\rrhh\\impl\\areaimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|solutionrelative:softprogpersistance\\rrhh\\impl\\areaimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BEB81FC-E3F8-4002-ADBF-B6EE606D2990}|SoftProgDBManager\\SoftProgDBManager.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BEB81FC-E3F8-4002-ADBF-B6EE606D2990}|SoftProgDBManager\\SoftProgDBManager.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BEB81FC-E3F8-4002-ADBF-B6EE606D2990}|SoftProgDBManager\\SoftProgDBManager.csproj|solutionrelative:softprogdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,8 +46,7 @@
               "RelativeToolTip": "SoftProgBusiness\\RRHH\\BOI\\EmpleadoBOImpl.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAuwCIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T20:15:41.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T20:15:41.887Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "SoftProgBusiness\\RRHH\\BO\\IEmpleadoBO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T20:15:38.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T20:15:38.594Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "SoftProgPersistance\\RRHH\\Impl\\AreaImpl.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAA+wDIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T20:05:45.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T20:05:45.592Z"
             },
             {
               "$type": "Document",
@@ -85,8 +82,7 @@
               "RelativeToolTip": "SoftProgDBManager\\DBManager.cs",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T20:09:35.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T20:09:35.34Z"
             },
             {
               "$type": "Document",
@@ -96,7 +92,7 @@
               "RelativeDocumentMoniker": "SoftProgPersistance\\RRHH\\Impl\\EmpleadoImpl.cs",
               "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgPersistance\\RRHH\\Impl\\EmpleadoImpl.cs",
               "RelativeToolTip": "SoftProgPersistance\\RRHH\\Impl\\EmpleadoImpl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwFkAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T20:05:45.962Z",
               "EditorCaption": ""
@@ -111,8 +107,7 @@
               "RelativeToolTip": "SoftProg\\Program.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAA0wB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T20:04:30.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T20:04:30.071Z"
             }
           ]
         }

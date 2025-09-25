@@ -87,7 +87,7 @@ namespace SoftProgPersistance.RRHH.Impl
             Empleado empleado = null;
             DbParameter[] parametros = new DbParameter[1];
             parametros[0] = DBManager.Instance.CreateParam("_id_empleado", DbType.Int32, idEmpleado, ParameterDirection.Input);
-            lector = DBManager.Instance.EjecutarProcedimientoLectura("OBTENER_EMPLEADO_X_ID", null);
+            lector = DBManager.Instance.EjecutarProcedimientoLectura("OBTENER_EMPLEADO_X_ID", parametros);
             if (lector.Read())
             {
                 if (empleado == null) empleado = new Empleado();
