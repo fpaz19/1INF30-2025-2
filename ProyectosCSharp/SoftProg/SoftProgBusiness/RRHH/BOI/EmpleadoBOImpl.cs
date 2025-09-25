@@ -32,7 +32,7 @@ namespace SoftProgBusiness.RRHH.BOI
 
         public BindingList<Empleado> listarTodos()
         {
-            throw new NotImplementedException();
+            return daoEmpleado.listarTodos();
         }
 
         public int modificar(Empleado objeto)

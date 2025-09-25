@@ -20,13 +20,16 @@ namespace SoftProg
             IAreaBO boArea = new AreaBOImpl();
             //boArea.insertar(a);
 
-            //Area b = new Area();
-            //b.IdArea = 2;
+            Area b = new Area();
+            b.IdArea = 2;
 
-            //Empleado emp = new Empleado("27651112","MARIA","FERNANDEZ",'F',new DateTime(1990, 10, 1),b, "JEFE DE VENTAS",1900.00);
+            Empleado emp = new Empleado("27651112","MARIA","FERNANDEZ",'F',new DateTime(1990, 10, 1),b, "JEFE DE VENTAS",1900.00);
 
-            //IEmpleadoBO boEmpleado = new EmpleadoBOImpl();
-            //boEmpleado.insertar(emp);
+            IEmpleadoBO boEmpleado = new EmpleadoBOImpl();
+            boEmpleado.insertar(emp);
+
+            BindingList<Empleado>
+                empleados = boEmpleado.listarTodos();
 
             BindingList<Area>
                 areas = boArea.listarTodos();

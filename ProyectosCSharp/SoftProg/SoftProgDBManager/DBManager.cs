@@ -92,9 +92,9 @@ namespace SoftProgDBManager
             return esSqlServer ? "@" + nombreLogico : nombreLogico;
         }
 
-        public DbCommand CrearCommand(DbConnection con, string storedProcedure)
+        public DbCommand CrearCommand(string storedProcedure)
         {
-            DbCommand cmd = con.CreateCommand();
+            cmd = con.CreateCommand();
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.CommandText = storedProcedure;
             return cmd;
@@ -103,8 +103,8 @@ namespace SoftProgDBManager
         public int EjecutarProcedimiento(string nombreSP, IList<DbParameter> parametros)
         {
             int resultado = 0;
-            DbConnection con = AbrirConexion();
-            DbCommand cmd = CrearCommand(con, nombreSP);
+            AbrirConexion();
+            cmd = CrearCommand(nombreSP);
             if (parametros != null && parametros.Count > 0)
                 foreach (DbParameter p in parametros)
                 {
@@ -112,8 +112,31 @@ namespace SoftProgDBManager
                     cmd.Parameters.Add(p);
                 }
             resultado = cmd.ExecuteNonQuery();
+            CerrarConexion();
             return resultado;
         }
+
+        public DbDataReader EjecutarProcedimientoLectura(string nombreSP, IList<DbParameter> parametros)
+        {
+            AbrirConexion();
+            try
+            {
+                cmd = CrearCommand(nombreSP);
+                if (parametros != null && parametros.Count > 0)
+                    foreach (DbParameter p in parametros)
+                    {
+                        p.ParameterName = P(p.ParameterName);
+                        cmd.Parameters.Add(p);
+                    }
+                return cmd.ExecuteReader(CommandBehavior.CloseConnection);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+
 
 
     }
