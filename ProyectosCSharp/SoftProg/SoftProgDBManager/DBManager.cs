@@ -38,11 +38,10 @@ namespace SoftProgDBManager
             password = ConfigurationManager.AppSettings["db.password"];
             port = ConfigurationManager.AppSettings["db.port"];
             database = ConfigurationManager.AppSettings["db.database"];
-            cadena = "server=" + server + ";" +
-                "user=" + user + ";" +
-                "password=" + password + ";" +
-                "database=" + database + ";" +
-                "port=" + port + ";";
+            if (esMySql)
+                cadena = $"Server={server};Database={database};User Id={user};Password={password};Port={port};";
+            else if (esSqlServer)
+                cadena = $"Server={server},{port};Database={database};User Id={user};Password={password};";
         }
 
         public static DBManager Instance

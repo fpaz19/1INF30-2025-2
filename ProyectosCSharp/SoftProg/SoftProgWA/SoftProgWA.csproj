@@ -165,6 +165,7 @@
     </Compile>
     <Compile Include="SoftProg.Master.cs">
       <DependentUpon>SoftProg.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SoftProg.Master.designer.cs">
       <DependentUpon>SoftProg.Master</DependentUpon>

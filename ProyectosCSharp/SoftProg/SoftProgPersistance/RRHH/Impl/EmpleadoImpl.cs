@@ -52,14 +52,14 @@ namespace SoftProgPersistance.RRHH.Impl
                 if (!lector.IsDBNull(lector.GetOrdinal("DNI"))) empleado.DNI = lector.GetString(lector.GetOrdinal("DNI"));
                 if (!lector.IsDBNull(lector.GetOrdinal("nombre"))) empleado.Nombre = lector.GetString(lector.GetOrdinal("nombre"));
                 if (!lector.IsDBNull(lector.GetOrdinal("apellido_paterno"))) empleado.ApellidoPaterno = lector.GetString(lector.GetOrdinal("apellido_paterno"));
-                if (!lector.IsDBNull(lector.GetOrdinal("sexo"))) empleado.Sexo = lector.GetChar(lector.GetOrdinal("sexo"));
+                if (!lector.IsDBNull(lector.GetOrdinal("sexo"))) empleado.Sexo = lector.GetString(lector.GetOrdinal("sexo"))[0];
                 if (!lector.IsDBNull(lector.GetOrdinal("fecha_nacimiento"))) empleado.FechaNacimiento = lector.GetDateTime(lector.GetOrdinal("fecha_nacimiento"));
                 Area area = new Area();
                 if (!lector.IsDBNull(lector.GetOrdinal("id_area"))) area.IdArea = lector.GetInt32(lector.GetOrdinal("id_area"));
                 if (!lector.IsDBNull(lector.GetOrdinal("nombre_area"))) area.Nombre = lector.GetString(lector.GetOrdinal("nombre_area"));
                 empleado.Area = area;
                 if (!lector.IsDBNull(lector.GetOrdinal("cargo"))) empleado.Cargo = lector.GetString(lector.GetOrdinal("cargo"));
-                if (!lector.IsDBNull(lector.GetOrdinal("sueldo"))) empleado.Sueldo = lector.GetDouble(lector.GetOrdinal("sueldo"));
+                if (!lector.IsDBNull(lector.GetOrdinal("sueldo"))) empleado.Sueldo = Convert.ToDouble(lector["sueldo"]);
                 empleado.Activo = true;
                 empleados.Add(empleado);
             }
