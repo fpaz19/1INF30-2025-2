@@ -43,6 +43,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -105,6 +108,7 @@
     <Content Include="Home.aspx" />
     <Content Include="Images\pucp.png" />
     <Content Include="index.html" />
+    <Content Include="ListarAreas.aspx" />
     <Content Include="RegistrarArea.aspx" />
     <Content Include="RegistrarEmpleado.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -147,6 +151,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarAreas.aspx.cs">
+      <DependentUpon>ListarAreas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarAreas.aspx.designer.cs">
+      <DependentUpon>ListarAreas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistrarArea.aspx.cs">

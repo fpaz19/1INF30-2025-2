@@ -29,7 +29,7 @@
             <hr />
             <ul class="mynav nav nav-pills flex-column mb-auto">
                 <li class="nav-item mb-1">
-                    <a href="RegistrarArea.aspx">
+                    <a href="ListarAreas.aspx">
                         <i class="fa-solid fa-building pe-2"></i>Gestionar Areas
                     </a>
                 </li>

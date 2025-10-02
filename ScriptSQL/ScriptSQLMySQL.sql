@@ -175,7 +175,6 @@ CREATE PROCEDURE LISTAR_EMPLEADOS_TODOS()
 BEGIN
 	SELECT e.id_empleado, p.DNI, p.nombre, p.apellido_paterno, p.sexo, p.fecha_nacimiento, a.id_area, a.nombre as nombre_area, e.cargo, e.sueldo FROM persona p INNER JOIN empleado e ON p.id_persona = e.id_empleado INNER JOIN area a ON e.fid_area = a.id_area WHERE e.activo = 1;
 END$
-
 CREATE PROCEDURE INSERTAR_CLIENTE(
 	OUT _id_cliente INT,
 	IN _DNI VARCHAR(8),

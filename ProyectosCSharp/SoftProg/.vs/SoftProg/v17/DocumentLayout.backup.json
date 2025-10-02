@@ -1,12 +1,190 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogwa\\registrararea.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\registrararea.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogwa\\registrararea.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\registrararea.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogwa\\registrararea.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\registrararea.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogwa\\listarareas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\listarareas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogwa\\listarareas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\listarareas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogmodel\\rrhh\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}|SoftProgModel\\SoftProgModel.csproj|solutionrelative:softprogmodel\\rrhh\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogwa\\softprog.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\softprog.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BEB81FC-E3F8-4002-ADBF-B6EE606D2990}|SoftProgDBManager\\SoftProgDBManager.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BEB81FC-E3F8-4002-ADBF-B6EE606D2990}|SoftProgDBManager\\SoftProgDBManager.csproj|solutionrelative:softprogdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB10CE0-5201-445E-A8BD-9466E2403DB1}|SoftProg\\SoftProg.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprog\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9AB10CE0-5201-445E-A8BD-9466E2403DB1}|SoftProg\\SoftProg.csproj|solutionrelative:softprog\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SoftProg.Master",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\SoftProg.Master",
+              "RelativeDocumentMoniker": "SoftProgWA\\SoftProg.Master",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\SoftProg.Master",
+              "RelativeToolTip": "SoftProgWA\\SoftProg.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-01T20:12:55.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Area.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgModel\\RRHH\\Area.cs",
+              "RelativeDocumentMoniker": "SoftProgModel\\RRHH\\Area.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgModel\\RRHH\\Area.cs",
+              "RelativeToolTip": "SoftProgModel\\RRHH\\Area.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwBQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T20:04:49.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListarAreas.aspx.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\ListarAreas.aspx.cs",
+              "RelativeDocumentMoniker": "SoftProgWA\\ListarAreas.aspx.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\ListarAreas.aspx.cs",
+              "RelativeToolTip": "SoftProgWA\\ListarAreas.aspx.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:58:17.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListarAreas.aspx",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\ListarAreas.aspx",
+              "RelativeDocumentMoniker": "SoftProgWA\\ListarAreas.aspx",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\ListarAreas.aspx",
+              "RelativeToolTip": "SoftProgWA\\ListarAreas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-01T19:55:05.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DBManager.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgDBManager\\DBManager.cs",
+              "RelativeDocumentMoniker": "SoftProgDBManager\\DBManager.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgDBManager\\DBManager.cs",
+              "RelativeToolTip": "SoftProgDBManager\\DBManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAD4vyIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:48:20.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\Web.config",
+              "RelativeDocumentMoniker": "SoftProgWA\\Web.config",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\Web.config",
+              "RelativeToolTip": "SoftProgWA\\Web.config",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-01T19:48:48.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrarArea.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\RegistrarArea.aspx.designer.cs",
+              "RelativeDocumentMoniker": "SoftProgWA\\RegistrarArea.aspx.designer.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\RegistrarArea.aspx.designer.cs",
+              "RelativeToolTip": "SoftProgWA\\RegistrarArea.aspx.designer.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:42:31.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrarArea.aspx.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\RegistrarArea.aspx.cs",
+              "RelativeDocumentMoniker": "SoftProgWA\\RegistrarArea.aspx.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\RegistrarArea.aspx.cs",
+              "RelativeToolTip": "SoftProgWA\\RegistrarArea.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAxwCwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:39:19.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrarArea.aspx",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\RegistrarArea.aspx",
+              "RelativeDocumentMoniker": "SoftProgWA\\RegistrarArea.aspx",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\RegistrarArea.aspx",
+              "RelativeToolTip": "SoftProgWA\\RegistrarArea.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-01T19:18:23.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProg\\App.config",
+              "RelativeDocumentMoniker": "SoftProg\\App.config",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProg\\App.config",
+              "RelativeToolTip": "SoftProg\\App.config",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-30T15:54:10.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
