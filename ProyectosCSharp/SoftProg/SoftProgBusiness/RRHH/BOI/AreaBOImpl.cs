@@ -19,9 +19,9 @@ namespace SoftProgBusiness.RRHH.BOI
             daoArea = new AreaImpl();
         }
 
-        public int eliminar(int idObjeto)
+        public int eliminar(int idArea)
         {
-            throw new NotImplementedException();
+            return daoArea.eliminar(idArea);
         }
 
         public int insertar(Area area)

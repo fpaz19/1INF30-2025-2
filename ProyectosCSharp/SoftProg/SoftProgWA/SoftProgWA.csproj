@@ -109,6 +109,7 @@
     <Content Include="Images\pucp.png" />
     <Content Include="index.html" />
     <Content Include="ListarAreas.aspx" />
+    <Content Include="ListarEmpleados.aspx" />
     <Content Include="RegistrarArea.aspx" />
     <Content Include="RegistrarEmpleado.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -142,9 +143,12 @@
     <Content Include="Scripts\jquery-3.7.1.min.js" />
     <Content Include="Scripts\jquery-3.7.1.slim.js" />
     <Content Include="Scripts\jquery-3.7.1.slim.min.js" />
+    <Content Include="Scripts\SoftProg\registrarArea.js" />
+    <Content Include="Scripts\SoftProg\registrarEmpleado.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Estado.cs" />
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -158,6 +162,13 @@
     </Compile>
     <Compile Include="ListarAreas.aspx.designer.cs">
       <DependentUpon>ListarAreas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarEmpleados.aspx.cs">
+      <DependentUpon>ListarEmpleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarEmpleados.aspx.designer.cs">
+      <DependentUpon>ListarEmpleados.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistrarArea.aspx.cs">

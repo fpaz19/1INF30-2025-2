@@ -2,6 +2,7 @@
 using SoftProgBusiness.RRHH.BO;
 using SoftProgBusiness.RRHH.BOI;
 using SoftProgModel.RRHH;
+using SoftProgDBManager;
 using SoftProgPersistance.RRHH.DAO;
 using System;
 using System.Collections.Generic;
@@ -42,6 +43,11 @@ namespace SoftProg
 
             areas[0].Nombre = "AREA MODIFICADA";
             boArea.modificar(areas[0]);
+
+            Encriptamiento enc = new Encriptamiento();
+            String llave = "jGwZUx4lOJZj8wXav7Sknw==";
+            String passwordEncriptado = "7meZVWpeJjyQU9N/8juZ7Q==";
+            System.Console.WriteLine(Encriptamiento.Desencriptar(passwordEncriptado, llave)) ;
         }
     }
 }

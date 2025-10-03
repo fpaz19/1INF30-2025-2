@@ -21,6 +21,8 @@ namespace SoftProgDBManager
         private string port;
         private string user;
         private string password;
+        private string passwordEncriptado;
+        private string llave;
         private string database;
 
         private string cadena;
@@ -35,9 +37,12 @@ namespace SoftProgDBManager
             server = ConfigurationManager.AppSettings["db.hostname"];
             tipoBD = ConfigurationManager.AppSettings["db.provider"];
             user = ConfigurationManager.AppSettings["db.username"];
-            password = ConfigurationManager.AppSettings["db.password"];
+            //password = ConfigurationManager.AppSettings["db.password"];
             port = ConfigurationManager.AppSettings["db.port"];
             database = ConfigurationManager.AppSettings["db.database"];
+            passwordEncriptado = ConfigurationManager.AppSettings["db.passwordEncriptado"];
+            llave = ConfigurationManager.AppSettings["db.key"];
+            password = Encriptamiento.Desencriptar(passwordEncriptado, llave); ;
             if (esMySql)
                 cadena = $"Server={server};Database={database};User Id={user};Password={password};Port={port};";
             else if (esSqlServer)

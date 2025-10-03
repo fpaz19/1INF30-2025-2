@@ -19,8 +19,6 @@ namespace SoftProgWA
             boArea = new AreaBOImpl();
             areas = boArea.listarTodos();
             gvAreas.DataSource = areas;
-
-
             gvAreas.DataBind();
         }
 
@@ -31,15 +29,17 @@ namespace SoftProgWA
 
         protected void lkModificar_Click(object sender, EventArgs e)
         {
-            int idArea = Int32.Parse(
-                ((LinkButton)sender).CommandArgument);
-            Area
-                areaSeleccionada =
-                areas.Single(x =>
-                x.IdArea == idArea);
+            int idArea = Int32.Parse(((LinkButton)sender).CommandArgument);
+            Area areaSeleccionada = areas.Single(x => x.IdArea == idArea);
             Session["area"] = areaSeleccionada;
-            Response.Redirect("RegistrarArea.aspx" +
-                "?accion=modificar");
+            Response.Redirect("RegistrarArea.aspx?accion=modificar");
+        }
+
+        protected void lkEliminar_Click(object sender, EventArgs e)
+        {
+            int idArea = Int32.Parse(((LinkButton)sender).CommandArgument);
+            boArea.eliminar(idArea);
+            Response.Redirect("ListarAreas.aspx");
         }
     }
 }

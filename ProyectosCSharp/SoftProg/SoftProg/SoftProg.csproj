@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Encriptamiento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,6 +57,10 @@
     <ProjectReference Include="..\SoftProgBusiness\SoftProgBusiness.csproj">
       <Project>{785B9E99-F803-450D-A7E0-5D49AE87AF56}</Project>
       <Name>SoftProgBusiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SoftProgDBManager\SoftProgDBManager.csproj">
+      <Project>{9beb81fc-e3f8-4002-adbf-b6ee606d2990}</Project>
+      <Name>SoftProgDBManager</Name>
     </ProjectReference>
     <ProjectReference Include="..\SoftProgModel\SoftProgModel.csproj">
       <Project>{9F5EE0CD-1B4E-4B38-9933-9D3C388E195A}</Project>

@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="nav-item mb-1">
-                    <a href="RegistrarEmpleado.aspx">
+                    <a href="ListarEmpleados.aspx">
                         <i class="fa-solid fa-users pe-2"></i>Gestionar Empleados
                     </a>
                 </li>

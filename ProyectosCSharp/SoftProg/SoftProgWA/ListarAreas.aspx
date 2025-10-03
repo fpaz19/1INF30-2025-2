@@ -8,8 +8,8 @@
     <div class="container">
         <div class="container row">
             <div class="row align-items-center">
-                <div class="col text-end">
-                    <asp:LinkButton ID="lkRegistrar" runat="server" CssClass="btn btn-success" OnClick="lkRegistrar_Click">Registrar</asp:LinkButton>
+                <div class="col text-end p-3">
+                    <asp:LinkButton ID="lkRegistrar" CssClass="btn btn-success" runat="server" OnClick="lkRegistrar_Click" Text="<i class='fa-solid fa-plus pe-2'></i> Registrar Area" />
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
                     <asp:TemplateField>
                         <ItemTemplate>
                             <asp:LinkButton runat="server" Text="<i class='fa-solid fa-pencil pe-4'></i>" OnClick="lkModificar_Click" CommandArgument='<%# Eval("IdArea")%>'/>
-                            <asp:LinkButton runat="server" Text="<i class='fa-solid fa-trash'></i>" />
+                            <asp:LinkButton runat="server" Text="<i class='fa-solid fa-trash'></i>" OnClick="lkEliminar_Click" CommandArgument='<%# Eval("IdArea")%>'/>
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
