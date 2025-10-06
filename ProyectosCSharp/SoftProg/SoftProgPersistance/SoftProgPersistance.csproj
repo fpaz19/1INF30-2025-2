@@ -44,7 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Almacen\DAO\ProductoDAO.cs" />
+    <Compile Include="Almacen\Impl\ProductoImpl.cs" />
     <Compile Include="DAO\IDAO.cs" />
+    <Compile Include="GestClientes\DAO\ClienteDAO.cs" />
+    <Compile Include="GestClientes\Impl\ClienteImpl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RRHH\DAO\AreaDAO.cs" />
     <Compile Include="RRHH\DAO\EmpleadoDAO.cs" />
