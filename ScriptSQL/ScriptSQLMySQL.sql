@@ -89,6 +89,7 @@ DROP PROCEDURE IF EXISTS MODIFICAR_CLIENTE;
 DROP PROCEDURE IF EXISTS ELIMINAR_CLIENTE;
 DROP PROCEDURE IF EXISTS OBTENER_CLIENTE_X_ID;
 DROP PROCEDURE IF EXISTS LISTAR_CLIENTES_TODOS;
+DROP PROCEDURE IF EXISTS LISTAR_CLIENTES_X_DNI_NOMBRE;
 
 DROP PROCEDURE IF EXISTS INSERTAR_PRODUCTO;
 DROP PROCEDURE IF EXISTS LISTAR_PRODUCTOS_TODOS;
@@ -215,6 +216,13 @@ END$
 CREATE PROCEDURE LISTAR_CLIENTES_TODOS()
 BEGIN
 	SELECT c.id_cliente, p.DNI, p.nombre, p.apellido_paterno, p.sexo, p.fecha_nacimiento, c.linea_credito, c.categoria FROM persona p INNER JOIN cliente c ON p.id_persona = c.id_cliente;
+END$
+DELIMITER $
+CREATE PROCEDURE LISTAR_CLIENTES_X_DNI_NOMBRE(
+	IN _DNI_nombre VARCHAR(140)
+)
+BEGIN
+	SELECT c.id_cliente, p.DNI, p.nombre, p.apellido_paterno, p.sexo, p.fecha_nacimiento, c.linea_credito, c.categoria FROM persona p INNER JOIN cliente c ON p.id_persona = c.id_cliente AND ((p.DNI LIKE CONCAT('%',_DNI_nombre,'%')) OR (CONCAT(p.nombre,' ',p.apellido_paterno) LIKE CONCAT('%',_DNI_nombre,'%')));
 END$
 
 CREATE PROCEDURE INSERTAR_PRODUCTO(

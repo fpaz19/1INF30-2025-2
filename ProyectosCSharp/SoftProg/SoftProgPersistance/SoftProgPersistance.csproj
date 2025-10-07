@@ -54,6 +54,8 @@
     <Compile Include="RRHH\DAO\EmpleadoDAO.cs" />
     <Compile Include="RRHH\Impl\AreaImpl.cs" />
     <Compile Include="RRHH\Impl\EmpleadoImpl.cs" />
+    <Compile Include="Ventas\DAO\OrdenVentaDAO.cs" />
+    <Compile Include="Ventas\Impl\OrdenVentaImpl.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

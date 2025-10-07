@@ -41,12 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Almacen\BOI\ProductoBOImpl.cs" />
+    <Compile Include="Almacen\BO\IProductoBO.cs" />
     <Compile Include="BO\IBaseBO.cs" />
+    <Compile Include="GestClientes\BOI\ClienteBOImpl.cs" />
+    <Compile Include="GestClientes\BO\IClienteBO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RRHH\BOI\AreaBOImpl.cs" />
     <Compile Include="RRHH\BOI\EmpleadoBOImpl.cs" />
     <Compile Include="RRHH\BO\IAreaBO.cs" />
     <Compile Include="RRHH\BO\IEmpleadoBO.cs" />
+    <Compile Include="Ventas\BOI\OrdenVentaBOImpl.cs" />
+    <Compile Include="Ventas\BO\IOrdenVentaBO.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SoftProgModel\SoftProgModel.csproj">

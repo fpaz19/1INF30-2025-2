@@ -112,6 +112,7 @@
     <Content Include="ListarEmpleados.aspx" />
     <Content Include="RegistrarArea.aspx" />
     <Content Include="RegistrarEmpleado.aspx" />
+    <Content Include="RegistrarOrdenVenta.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -145,6 +146,7 @@
     <Content Include="Scripts\jquery-3.7.1.slim.min.js" />
     <Content Include="Scripts\SoftProg\registrarArea.js" />
     <Content Include="Scripts\SoftProg\registrarEmpleado.js" />
+    <Content Include="Scripts\SoftProg\registrarOrdenVenta.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -184,6 +186,13 @@
     </Compile>
     <Compile Include="RegistrarEmpleado.aspx.designer.cs">
       <DependentUpon>RegistrarEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarOrdenVenta.aspx.cs">
+      <DependentUpon>RegistrarOrdenVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrarOrdenVenta.aspx.designer.cs">
+      <DependentUpon>RegistrarOrdenVenta.aspx</DependentUpon>
     </Compile>
     <Compile Include="SoftProg.Master.cs">
       <DependentUpon>SoftProg.Master</DependentUpon>

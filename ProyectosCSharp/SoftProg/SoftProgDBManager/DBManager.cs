@@ -140,8 +140,21 @@ namespace SoftProgDBManager
             }
         }
 
-
-
+        public int EjecutarProcedimientoTransaccion(string nombreSP, IList<DbParameter> parametros, DbTransaction transaccion)
+        {
+            int resultado = 0;
+            cmd = CrearCommand(nombreSP);
+            transaccion = con.BeginTransaction();
+            cmd.Transaction = transaccion;
+            if (parametros != null && parametros.Count > 0)
+                foreach (DbParameter p in parametros)
+                {
+                    p.ParameterName = P(p.ParameterName);
+                    cmd.Parameters.Add(p);
+                }
+            resultado = cmd.ExecuteNonQuery();
+            return resultado;
+        }
 
     }
 }
