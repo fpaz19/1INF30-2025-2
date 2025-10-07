@@ -227,7 +227,9 @@ namespace SoftProgWA
 
             ordenVenta.Cliente = cliente;
             ordenVenta.LineasOrdenVenta = lineasOrdenVenta;
-            ordenVenta.Empleado = (Empleado)Session["Empleado"];
+            //ordenVenta.Empleado = (Empleado)Session["Empleado"];
+            ordenVenta.Empleado = new Empleado();
+            ordenVenta.Empleado.IdPersona = 2;
 
             calcularTotal();
 

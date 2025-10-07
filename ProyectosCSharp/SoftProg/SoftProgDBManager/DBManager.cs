@@ -144,7 +144,6 @@ namespace SoftProgDBManager
         {
             int resultado = 0;
             cmd = CrearCommand(nombreSP);
-            transaccion = con.BeginTransaction();
             cmd.Transaction = transaccion;
             if (parametros != null && parametros.Count > 0)
                 foreach (DbParameter p in parametros)

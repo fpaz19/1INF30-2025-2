@@ -41,7 +41,7 @@ public class DBManager {
                 + "true;integratedSecurity=false;";
                 
         this.user = datos.getProperty("usuario");
-        this.password = datos.getProperty("password");
+        this.password = Encriptamiento.desencriptar(datos.getProperty("passwordEncriptado"),datos.getProperty("key"));
         
     }
     

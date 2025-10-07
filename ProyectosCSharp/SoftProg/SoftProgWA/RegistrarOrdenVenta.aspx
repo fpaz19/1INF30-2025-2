@@ -97,8 +97,8 @@
 
                     </div>
                     <div class="card-footer clearfix">
-                        <asp:LinkButton ID="lbRegresar" runat="server" Text="Regresar" CssClass="float-start btn btn-secondary" OnClick="btnGuardar_Click"/>
-                        <asp:LinkButton ID="lbGuardar" runat="server" Text="Guardar" CssClass="float-end btn btn-primary"  />
+                        <asp:LinkButton ID="lbRegresar" runat="server" Text="Regresar" CssClass="float-start btn btn-secondary" />
+                        <asp:LinkButton ID="lbGuardar" runat="server" Text="Guardar" CssClass="float-end btn btn-primary"  OnClick="btnGuardar_Click"/>
                     </div>
                 </div>
             </div>
