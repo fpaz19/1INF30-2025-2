@@ -1,0 +1,6 @@
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgModel\bin\Debug\SoftProgModel.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgModel\bin\Debug\SoftProgModel.pdb
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgModel\obj\Debug\SoftProgModel.csproj.AssemblyReference.cache
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgModel\obj\Debug\SoftProgModel.csproj.CoreCompileInputs.cache
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgModel\obj\Debug\SoftProgModel.dll
+C:\Repositorios\1INF30-2025-2\ProyectosCSharp\SoftProg\SoftProgModel\obj\Debug\SoftProgModel.pdb
