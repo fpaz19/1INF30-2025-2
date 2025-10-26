@@ -6,7 +6,11 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>../SoftProg</module>
+        <module>../SoftProgDBManager</module>
+        <module>../SoftProgModel</module>
+        <module>../SoftProgDA</module>
+        <module>../SoftProgBusiness</module>
+        <module>../SoftProgWS</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

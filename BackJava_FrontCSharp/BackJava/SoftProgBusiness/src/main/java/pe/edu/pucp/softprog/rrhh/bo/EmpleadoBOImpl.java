@@ -13,30 +13,25 @@ public class EmpleadoBOImpl implements IEmpleadoBO{
     public EmpleadoBOImpl(){
         daoEmpleado = new EmpleadoImpl();
     }
-    
-
 
     @Override
-    public int eliminar(int idObjeto) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public int eliminar(int idEmpleado) throws Exception {
+        return daoEmpleado.eliminar(idEmpleado);
     }
-
    
     @Override
     public ArrayList listarTodos() throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-
-
-    @Override
-    public int insertar(Empleado objeto) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return daoEmpleado.listarTodos();
     }
 
     @Override
-    public int modificar(Empleado objeto) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public int insertar(Empleado empleado) throws Exception {
+        return daoEmpleado.insertar(empleado);
+    }
+
+    @Override
+    public int modificar(Empleado empleado) throws Exception {
+        return daoEmpleado.modificar(empleado);
     }
 
     @Override
@@ -46,10 +41,7 @@ public class EmpleadoBOImpl implements IEmpleadoBO{
 
     @Override
     public Empleado obtenerPorId(int idEmpleado) throws Exception {
-        Empleado e = daoEmpleado.obtenerPorId(idEmpleado);
-//        Area area = daoArea.obtenerPorId(e.get);
-//        e.setArea(area);
-        return e;
+        return daoEmpleado.obtenerPorId(idEmpleado);
     }
     
 }
