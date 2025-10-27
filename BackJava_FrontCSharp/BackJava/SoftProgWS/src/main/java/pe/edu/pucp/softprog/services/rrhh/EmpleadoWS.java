@@ -60,4 +60,16 @@ public class EmpleadoWS {
         }
         return resultado;
     }
+    
+    @WebMethod(operationName = "obtenerEmpleadoPorId")
+    public Empleado obtenerEmpleadoPorId(@WebParam(name = "idEmpleado") int idEmpleado){
+        Empleado empleado = null;
+        try{
+            boEmpleado = new EmpleadoBOImpl();
+            empleado = boEmpleado.obtenerPorId(idEmpleado);
+        }catch(Exception ex){
+            System.out.println(ex.getMessage());
+        }
+        return empleado;
+    }
 }

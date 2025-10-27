@@ -85,5 +85,33 @@ public class ClienteImpl implements ClienteDAO{
     public ArrayList<Cliente> listarTodos() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+
+    @Override
+    public ArrayList<Cliente> listarPorDNIoNombre(String DNInombre) {
+        ArrayList<Cliente> clientes = null;
+        Map<Integer, Object> parametrosEntrada = new HashMap<>();
+        parametrosEntrada.put(1, DNInombre);
+        rs = DBManager.getInstance().ejecutarProcedimientoLectura("LISTAR_CLIENTES_X_DNI_NOMBRE", parametrosEntrada);
+        System.out.println("Lectura de clientes por DNI o nombre...");
+        try{
+            while(rs.next()){
+                if(clientes == null) clientes = new ArrayList<>();
+                Cliente cliente = new Cliente();
+                cliente.setIdPersona(rs.getInt("id_cliente"));
+                cliente.setDni(rs.getString("DNI"));
+                cliente.setNombre(rs.getString("nombre"));
+                cliente.setApellidoPaterno(rs.getString("apellido_paterno"));
+                cliente.setSexo(rs.getString("sexo").charAt(0));
+                cliente.setFechaNacimiento(rs.getDate("fecha_nacimiento"));
+                cliente.setLineaCredito(rs.getDouble("linea_credito"));
+                cliente.setCategoria(Categoria.valueOf(rs.getString("categoria")));
+            }
+        }catch(SQLException ex){
+            System.out.println(ex.getMessage());
+        }finally{
+            DBManager.getInstance().cerrarConexion();
+        }
+        return clientes;
+    }
     
 }

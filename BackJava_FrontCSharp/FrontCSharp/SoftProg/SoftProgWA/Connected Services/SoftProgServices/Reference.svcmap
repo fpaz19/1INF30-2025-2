@@ -22,11 +22,13 @@
     <MetadataSource Address="http://localhost:8080/SoftProgWS/referencias.disco" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ServiceWS.xsd" MetadataType="Schema" ID="ff8772b7-e0a5-4932-ad11-8af3af13f007" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ServiceWS?xsd=1" />
-    <MetadataFile FileName="AreaWS.wsdl" MetadataType="Wsdl" ID="9b41160e-6d70-44a0-a96f-319304de9d3c" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/AreaWS?WSDL" />
     <MetadataFile FileName="referencias.disco" MetadataType="Disco" ID="9a952169-29be-4e3f-af66-a1c0c3e446b5" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/referencias.disco" />
-    <MetadataFile FileName="AreaWS.xsd" MetadataType="Schema" ID="1a15e761-484d-4fc2-97b7-0a2540f504c6" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/AreaWS?xsd=1" />
     <MetadataFile FileName="ServiceWS.wsdl" MetadataType="Wsdl" ID="47a955de-ccd8-46b3-8fc7-fbd344eb8a77" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ServiceWS?WSDL" />
+    <MetadataFile FileName="EmpleadoWS.wsdl" MetadataType="Wsdl" ID="b16bdb3b-80f3-4401-877a-500e5d7608db" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/EmpleadoWS?WSDL" />
+    <MetadataFile FileName="AreaWS.xsd" MetadataType="Schema" ID="1a15e761-484d-4fc2-97b7-0a2540f504c6" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/AreaWS?xsd=1" />
+    <MetadataFile FileName="AreaWS.wsdl" MetadataType="Wsdl" ID="9b41160e-6d70-44a0-a96f-319304de9d3c" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/AreaWS?WSDL" />
+    <MetadataFile FileName="EmpleadoWS.xsd" MetadataType="Schema" ID="5480e7b8-3398-418d-b018-62b4a1a3572a" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/EmpleadoWS?xsd=1" />
+    <MetadataFile FileName="ServiceWS.xsd" MetadataType="Schema" ID="ff8772b7-e0a5-4932-ad11-8af3af13f007" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ServiceWS?xsd=1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

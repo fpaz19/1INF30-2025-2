@@ -75,6 +75,10 @@
     <None Include="Connected Services\SoftProgServices\AreaWS.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Connected Services\SoftProgServices\EmpleadoWS.wsdl" />
+    <None Include="Connected Services\SoftProgServices\EmpleadoWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\SoftProgServices\referencias.disco" />
     <None Include="Connected Services\SoftProgServices\configuration91.svcinfo" />
     <None Include="Connected Services\SoftProgServices\configuration.svcinfo" />
@@ -187,6 +191,24 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.modificarAreaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.eliminarEmpleadoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.empleado.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.insertarEmpleadoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.listarEmpleadosTodosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.modificarEmpleadoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.obtenerEmpleadoPorIdResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />

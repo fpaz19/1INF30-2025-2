@@ -1,4 +1,5 @@
 ﻿
+using SoftProgWA.SoftProgServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,65 +12,65 @@ namespace SoftProgWA
 {
     public partial class RegistrarEmpleado : System.Web.UI.Page
     {
-        //private AreaBOImpl boArea;
-        //private EmpleadoBOImpl boEmpleado;
-        //private Empleado empleado;
-        //private Estado estado;
+        private AreaWSClient boArea;
+        private EmpleadoWSClient boEmpleado;
+        private empleado empleado;
+        private Estado estado;
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (!IsPostBack)
-            //{
-            //    boArea = new AreaBOImpl();
-            //    ddlAreas.DataSource = boArea.listarTodos();
-            //    ddlAreas.DataTextField = "Nombre";
-            //    ddlAreas.DataValueField = "IdArea";
-            //    ddlAreas.DataBind();
-            //}
+            if (!IsPostBack)
+            {
+                boArea = new AreaWSClient();
+                ddlAreas.DataSource = boArea.listarAreasTodas();
+                ddlAreas.DataTextField = "nombre";
+                ddlAreas.DataValueField = "idArea";
+                ddlAreas.DataBind();
+            }
 
-            //String accion = Request.QueryString["accion"];
-            //if (accion == null)
-            //{
-            //    empleado = new Empleado();
-            //    lblTitulo.Text = "Registrar Empleado";
-            //    estado = Estado.Nuevo;
-            //}
-            //else if (accion == "modificar")
-            //{
-            //    lblTitulo.Text = "Modificar Empleado";
-            //    estado = Estado.Modificar;
-            //    empleado = (Empleado)Session["empleado"];
-            //    if (!IsPostBack)
-            //        AsignarValores();
-            //}
-            //else if (accion == "ver")
-            //{
-            //    lblTitulo.Text = "Ver Empleado";
-            //    empleado = (Empleado)Session["empleado"];
-            //    AsignarValores();
-            //    txtDNIEmpleado.Enabled = false;
-            //    txtNombre.Enabled = false;
-            //    txtApellidoPaterno.Enabled = false;
-            //    txtCargo.Enabled = false;
-            //    txtSueldo.Enabled = false;
-            //    ddlAreas.Enabled = false;
-            //    rbMasculino.Disabled = true;
-            //    rbFemenino.Disabled = true;
-            //    btnGuardar.Visible = false;
-            //    dtpFechaNacimiento.Disabled = true;
-            //}
+            String accion = Request.QueryString["accion"];
+            if (accion == null)
+            {
+                empleado = new empleado();
+                lblTitulo.Text = "Registrar Empleado";
+                estado = Estado.Nuevo;
+            }
+            else if (accion == "modificar")
+            {
+                lblTitulo.Text = "Modificar Empleado";
+                estado = Estado.Modificar;
+                empleado = (empleado)Session["empleado"];
+                if (!IsPostBack)
+                    AsignarValores();
+            }
+            else if (accion == "ver")
+            {
+                lblTitulo.Text = "Ver Empleado";
+                empleado = (empleado)Session["empleado"];
+                AsignarValores();
+                txtDNIEmpleado.Enabled = false;
+                txtNombre.Enabled = false;
+                txtApellidoPaterno.Enabled = false;
+                txtCargo.Enabled = false;
+                txtSueldo.Enabled = false;
+                ddlAreas.Enabled = false;
+                rbMasculino.Disabled = true;
+                rbFemenino.Disabled = true;
+                btnGuardar.Visible = false;
+                dtpFechaNacimiento.Disabled = true;
+            }
         }
 
         public void AsignarValores()
         {
-            //txtDNIEmpleado.Text = empleado.DNI;
-            //txtNombre.Text = empleado.Nombre;
-            //txtApellidoPaterno.Text = empleado.ApellidoPaterno;
-            //ddlAreas.SelectedValue = empleado.Area.IdArea.ToString();
-            //if (empleado.Sexo.Equals('M')) rbMasculino.Checked = true;
-            //else rbFemenino.Checked = true;
-            //dtpFechaNacimiento.Value = empleado.FechaNacimiento.ToString("yyyy-MM-dd");
-            //txtCargo.Text = empleado.Cargo;
-            //txtSueldo.Text = empleado.Sueldo.ToString("F2");
+            txtDNIEmpleado.Text = empleado.dni;
+            txtNombre.Text = empleado.nombre;
+            txtApellidoPaterno.Text = empleado.apellidoPaterno;
+            ddlAreas.SelectedValue = empleado.area.idArea.ToString();
+            if (empleado.sexo.Equals('M')) rbMasculino.Checked = true;
+            else rbFemenino.Checked = true;
+            dtpFechaNacimiento.Value = empleado.fechaNacimiento.ToString("yyyy-MM-dd");
+            txtCargo.Text = empleado.cargo;
+            txtSueldo.Text = empleado.sueldo.ToString("F2");
         }
 
         protected void btnGuardar_Click(object sender, EventArgs e)

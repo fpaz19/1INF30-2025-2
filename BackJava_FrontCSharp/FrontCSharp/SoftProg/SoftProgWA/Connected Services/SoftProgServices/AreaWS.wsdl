@@ -5,17 +5,23 @@
       <xsd:import schemaLocation="http://localhost:8080/SoftProgWS/AreaWS?xsd=1" namespace="http://rrhh.services.softprog.pucp.edu.pe/" />
     </xsd:schema>
   </types>
+  <message name="obtenerAreaPorId">
+    <part name="parameters" element="tns:obtenerAreaPorId" />
+  </message>
+  <message name="obtenerAreaPorIdResponse">
+    <part name="parameters" element="tns:obtenerAreaPorIdResponse" />
+  </message>
   <message name="listarAreasTodas">
     <part name="parameters" element="tns:listarAreasTodas" />
   </message>
   <message name="listarAreasTodasResponse">
     <part name="parameters" element="tns:listarAreasTodasResponse" />
   </message>
-  <message name="obtenerAreaPorId">
-    <part name="parameters" element="tns:obtenerAreaPorId" />
+  <message name="eliminarArea">
+    <part name="parameters" element="tns:eliminarArea" />
   </message>
-  <message name="obtenerAreaPorIdResponse">
-    <part name="parameters" element="tns:obtenerAreaPorIdResponse" />
+  <message name="eliminarAreaResponse">
+    <part name="parameters" element="tns:eliminarAreaResponse" />
   </message>
   <message name="insertarArea">
     <part name="parameters" element="tns:insertarArea" />
@@ -29,20 +35,18 @@
   <message name="modificarAreaResponse">
     <part name="parameters" element="tns:modificarAreaResponse" />
   </message>
-  <message name="eliminarArea">
-    <part name="parameters" element="tns:eliminarArea" />
-  </message>
-  <message name="eliminarAreaResponse">
-    <part name="parameters" element="tns:eliminarAreaResponse" />
-  </message>
   <portType name="AreaWS">
+    <operation name="obtenerAreaPorId">
+      <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/obtenerAreaPorIdRequest" message="tns:obtenerAreaPorId" />
+      <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/obtenerAreaPorIdResponse" message="tns:obtenerAreaPorIdResponse" />
+    </operation>
     <operation name="listarAreasTodas">
       <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/listarAreasTodasRequest" message="tns:listarAreasTodas" />
       <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/listarAreasTodasResponse" message="tns:listarAreasTodasResponse" />
     </operation>
-    <operation name="obtenerAreaPorId">
-      <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/obtenerAreaPorIdRequest" message="tns:obtenerAreaPorId" />
-      <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/obtenerAreaPorIdResponse" message="tns:obtenerAreaPorIdResponse" />
+    <operation name="eliminarArea">
+      <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/eliminarAreaRequest" message="tns:eliminarArea" />
+      <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/eliminarAreaResponse" message="tns:eliminarAreaResponse" />
     </operation>
     <operation name="insertarArea">
       <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/insertarAreaRequest" message="tns:insertarArea" />
@@ -52,13 +56,18 @@
       <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/modificarAreaRequest" message="tns:modificarArea" />
       <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/modificarAreaResponse" message="tns:modificarAreaResponse" />
     </operation>
-    <operation name="eliminarArea">
-      <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/eliminarAreaRequest" message="tns:eliminarArea" />
-      <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/AreaWS/eliminarAreaResponse" message="tns:eliminarAreaResponse" />
-    </operation>
   </portType>
   <binding name="AreaWSPortBinding" type="tns:AreaWS">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="obtenerAreaPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
     <operation name="listarAreasTodas">
       <soap:operation soapAction="" />
       <input>
@@ -68,7 +77,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="obtenerAreaPorId">
+    <operation name="eliminarArea">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -87,15 +96,6 @@
       </output>
     </operation>
     <operation name="modificarArea">
-      <soap:operation soapAction="" />
-      <input>
-        <soap:body use="literal" />
-      </input>
-      <output>
-        <soap:body use="literal" />
-      </output>
-    </operation>
-    <operation name="eliminarArea">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />

@@ -69,7 +69,7 @@
               "RelativeDocumentMoniker": "SoftProgWA\\Web.config",
               "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\Web.config",
               "RelativeToolTip": "SoftProgWA\\Web.config",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvx0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-10-14T03:45:55.096Z",
               "EditorCaption": ""
@@ -156,7 +156,8 @@
               "RelativeToolTip": "SoftProgTests\\AreaDAOTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T20:00:59.561Z"
+              "WhenOpened": "2025-10-07T20:00:59.561Z",
+              "EditorCaption": ""
             }
           ]
         }

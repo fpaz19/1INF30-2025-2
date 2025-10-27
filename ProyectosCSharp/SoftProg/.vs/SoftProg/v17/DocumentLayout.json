@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|c:\\repositorios\\1inf30-2025-2\\proyectoscsharp\\softprog\\softprogpersistance\\ventas\\impl\\ordenventaimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\softprogpersistance\\ventas\\impl\\ordenventaimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9DAAB7D-3BE7-42D9-92DA-C1953D032285}|SoftProgPersistance\\SoftProgPersistance.csproj|solutionrelative:softprogpersistance\\ventas\\impl\\ordenventaimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "SoftProgPersistance\\Ventas\\Impl\\OrdenVentaImpl.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAUwC4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T04:08:12.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T04:08:12.674Z"
             },
             {
               "$type": "Document",
@@ -69,7 +68,7 @@
               "RelativeDocumentMoniker": "SoftProgWA\\Web.config",
               "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\ProyectosCSharp\\SoftProg\\SoftProgWA\\Web.config",
               "RelativeToolTip": "SoftProgWA\\Web.config",
-              "ViewState": "AgIAABYAAAAAAAAAAADwvx0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvyAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-10-14T03:45:55.096Z",
               "EditorCaption": ""
@@ -156,8 +155,7 @@
               "RelativeToolTip": "SoftProgTests\\AreaDAOTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T20:00:59.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T20:00:59.561Z"
             }
           ]
         }

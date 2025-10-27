@@ -1,9 +1,9 @@
-package pe.edu.pucp.softprog.almacen.dao;
+package pe.edu.pucp.softprog.almacen.boi;
 
 import java.util.ArrayList;
 import pe.edu.pucp.softprog.almacen.model.Producto;
-import pe.edu.pucp.softprog.dao.IDAO;
+import pe.edu.pucp.softprog.bo.IBaseBO;
 
-public interface ProductoDAO extends IDAO<Producto>{
+public interface IProductoBO extends IBaseBO<Producto>{
     ArrayList<Producto> listarPorNombre(String nombre);
 }
