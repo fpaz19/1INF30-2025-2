@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pe.edu.pucp.softprog.rrhh.AreaDAOTest" time="9.44" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\BackJava\SoftProgDA\target\test-classes;C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\BackJava\SoftProgDA\target\classes;C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\BackJava\SoftProgModel\target\SoftProgModel-1.0.jar;C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\BackJava\SoftProgDBManager\target\SoftProgDBManager-1.0.jar;C:\Users\Freddy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\Freddy\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Freddy\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\Freddy\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Freddy\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\Freddy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\Freddy\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\Freddy\.m2\repository\com\mysql\mysql-connector-j\9.4.0\mysql-connector-j-9.4.0.jar;C:\Users\Freddy\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\Freddy\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\13.2.0.jre11\mssql-jdbc-13.2.0.jre11.jar;C:\Users\Freddy\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="America/Lima"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\Freddy\AppData\Local\Temp\surefire5771833206509013060\surefirebooter-20251029204856382_3.jar C:\Users\Freddy\AppData\Local\Temp\surefire5771833206509013060 2025-10-29T20-48-51_773-jvmRun1 surefire-20251029204856382_1tmp surefire_0-20251029204856382_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\BackJava\SoftProgDA\target\test-classes;C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\BackJava\SoftProgDA\target\classes;C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\BackJava\SoftProgModel\target\SoftProgModel-1.0.jar;C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\BackJava\SoftProgDBManager\target\SoftProgDBManager-1.0.jar;C:\Users\Freddy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\Freddy\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Freddy\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\Freddy\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Freddy\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\Freddy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\Freddy\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\Freddy\.m2\repository\com\mysql\mysql-connector-j\9.4.0\mysql-connector-j-9.4.0.jar;C:\Users\Freddy\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\Freddy\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\13.2.0.jre11\mssql-jdbc-13.2.0.jre11.jar;C:\Users\Freddy\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Freddy"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Apache NetBeans\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\BackJava\SoftProgDA"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Freddy\AppData\Local\Temp\surefire5771833206509013060\surefirebooter-20251029204856382_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12"/>
+    <property name="user.name" value="Freddy"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu24.32+13-CA"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\Apache NetBeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Freddy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Freddy\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\BackJava\SoftProgDA"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\Freddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Freddy\AppData\Roaming\npm;C:\Users\Freddy\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="24.0.2+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="verificarObtenerPorId" classname="pe.edu.pucp.softprog.rrhh.AreaDAOTest" time="2.887">
+    <system-out><![CDATA[Se ha establecido la conexion con la base de datos.
+Lectura de area...
+]]></system-out>
+  </testcase>
+  <testcase name="verificarRegistro" classname="pe.edu.pucp.softprog.rrhh.AreaDAOTest" time="1.87">
+    <system-out><![CDATA[Se ha establecido la conexion con la base de datos.
+Se ha realizado el registro del area
+]]></system-out>
+  </testcase>
+  <testcase name="verificarListarTodas" classname="pe.edu.pucp.softprog.rrhh.AreaDAOTest" time="1.521">
+    <system-out><![CDATA[Se ha establecido la conexion con la base de datos.
+Lectura de todas las areas...
+Area: idArea = 1, nombre = CONTABILIDAD, activo = true
+Area: idArea = 2, nombre = VENTAS, activo = true
+Area: idArea = 3, nombre = CONTABILIDAD, activo = true
+Area: idArea = 4, nombre = FINANZAS, activo = true
+Area: idArea = 7, nombre = INVESTIGACION, activo = true
+Area: idArea = 8, nombre = INVESTIGACION, activo = true
+Area: idArea = 24, nombre = TECNOLOGIAS DE INFORMACION, activo = true
+]]></system-out>
+  </testcase>
+  <testcase name="verificarModificacion" classname="pe.edu.pucp.softprog.rrhh.AreaDAOTest" time="1.441">
+    <system-out><![CDATA[Se ha establecido la conexion con la base de datos.
+Se ha realizado la modificacion del area
+]]></system-out>
+  </testcase>
+  <testcase name="verificarEliminacion" classname="pe.edu.pucp.softprog.rrhh.AreaDAOTest" time="1.634">
+    <system-out><![CDATA[Se ha establecido la conexion con la base de datos.
+Se ha realizado la eliminacion del area
+]]></system-out>
+  </testcase>
+</testsuite>
