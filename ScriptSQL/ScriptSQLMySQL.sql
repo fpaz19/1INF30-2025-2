@@ -69,6 +69,14 @@ CREATE TABLE linea_orden_venta(
     FOREIGN KEY(fid_orden_venta) REFERENCES orden_venta(id_orden_venta),
     FOREIGN KEY(fid_producto) REFERENCES producto(id_producto)
 )ENGINE=InnoDB;
+CREATE TABLE cuenta_usuario(
+	id_cuenta_usuario INT auto_increment,
+    fid_empleado INT UNIQUE,
+    username VARCHAR(100),
+    password VARCHAR(100),
+    PRIMARY KEY(id_cuenta_usuario),
+    FOREIGN KEY(fid_empleado) REFERENCES empleado(id_empleado)
+)ENGINE=INNODB;
 -- Registros
 INSERT INTO area(nombre,activa) VALUES('CONTABILIDAD',1);
 -- Borrando procedimientos almacenados
@@ -101,6 +109,8 @@ DROP PROCEDURE IF EXISTS ELIMINAR_ORDEN_VENTA;
 DROP PROCEDURE IF EXISTS OBTENER_ORDEN_VENTA_X_ID;
 DROP PROCEDURE IF EXISTS INSERTAR_LINEA_ORDEN_VENTA;
 DROP PROCEDURE IF EXISTS LISTAR_LINEAS_ORDEN_VENTA_X_ID_ORDEN_VENTA;
+
+DROP PROCEDURE IF EXISTS VERIFICAR_CUENTA_USUARIO;
 
 DELIMITER $
 CREATE PROCEDURE INSERTAR_AREA(
@@ -298,6 +308,14 @@ CREATE PROCEDURE LISTAR_LINEAS_ORDEN_VENTA_X_ID_ORDEN_VENTA(
 )
 BEGIN
 	SELECT lov.id_linea_orden_venta, lov.fid_orden_venta, p.id_producto, p.nombre, p.precio, p.unidad_medida, lov.cantidad, lov.subtotal FROM linea_orden_venta lov INNER JOIN producto p ON lov.fid_producto = p.id_producto WHERE lov.fid_orden_venta = _id_orden_venta AND activa = 1;
+END$
+DELIMITER $
+CREATE PROCEDURE VERIFICAR_CUENTA_USUARIO(
+	IN _username VARCHAR(100),
+    IN _password VARCHAR(100)
+)
+BEGIN
+	SELECT * FROM cuenta_usuario WHERE username  = _username AND password = MD5(_password);
 END$
 -- Insertando registros
 CALL INSERTAR_AREA(@id_area1,'VENTAS');

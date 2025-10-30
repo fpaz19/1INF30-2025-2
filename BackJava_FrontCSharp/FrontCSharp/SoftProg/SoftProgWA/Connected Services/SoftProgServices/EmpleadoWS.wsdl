@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://rrhh.services.softprog.pucp.edu.pe/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="EmpleadoWS" targetNamespace="http://rrhh.services.softprog.pucp.edu.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="pe.edu.pucp.softprog.services" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="EmpleadoWS" targetNamespace="pe.edu.pucp.softprog.services" xmlns="http://schemas.xmlsoap.org/wsdl/">
   <types>
     <xsd:schema>
-      <xsd:import schemaLocation="http://localhost:8080/SoftProgWS/EmpleadoWS?xsd=1" namespace="http://rrhh.services.softprog.pucp.edu.pe/" />
+      <xsd:import schemaLocation="http://localhost:8080/SoftProgWS/EmpleadoWS?xsd=1" namespace="pe.edu.pucp.softprog.services" />
     </xsd:schema>
   </types>
   <message name="listarEmpleadosTodos">
@@ -37,24 +37,24 @@
   </message>
   <portType name="EmpleadoWS">
     <operation name="listarEmpleadosTodos">
-      <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/EmpleadoWS/listarEmpleadosTodosRequest" message="tns:listarEmpleadosTodos" />
-      <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/EmpleadoWS/listarEmpleadosTodosResponse" message="tns:listarEmpleadosTodosResponse" />
+      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/listarEmpleadosTodosRequest" message="tns:listarEmpleadosTodos" />
+      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/listarEmpleadosTodosResponse" message="tns:listarEmpleadosTodosResponse" />
     </operation>
     <operation name="insertarEmpleado">
-      <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/EmpleadoWS/insertarEmpleadoRequest" message="tns:insertarEmpleado" />
-      <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/EmpleadoWS/insertarEmpleadoResponse" message="tns:insertarEmpleadoResponse" />
+      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/insertarEmpleadoRequest" message="tns:insertarEmpleado" />
+      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/insertarEmpleadoResponse" message="tns:insertarEmpleadoResponse" />
     </operation>
     <operation name="modificarEmpleado">
-      <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/EmpleadoWS/modificarEmpleadoRequest" message="tns:modificarEmpleado" />
-      <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/EmpleadoWS/modificarEmpleadoResponse" message="tns:modificarEmpleadoResponse" />
+      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/modificarEmpleadoRequest" message="tns:modificarEmpleado" />
+      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/modificarEmpleadoResponse" message="tns:modificarEmpleadoResponse" />
     </operation>
     <operation name="eliminarEmpleado">
-      <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/EmpleadoWS/eliminarEmpleadoRequest" message="tns:eliminarEmpleado" />
-      <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/EmpleadoWS/eliminarEmpleadoResponse" message="tns:eliminarEmpleadoResponse" />
+      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/eliminarEmpleadoRequest" message="tns:eliminarEmpleado" />
+      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/eliminarEmpleadoResponse" message="tns:eliminarEmpleadoResponse" />
     </operation>
     <operation name="obtenerEmpleadoPorId">
-      <input wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/EmpleadoWS/obtenerEmpleadoPorIdRequest" message="tns:obtenerEmpleadoPorId" />
-      <output wsam:Action="http://rrhh.services.softprog.pucp.edu.pe/EmpleadoWS/obtenerEmpleadoPorIdResponse" message="tns:obtenerEmpleadoPorIdResponse" />
+      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/obtenerEmpleadoPorIdRequest" message="tns:obtenerEmpleadoPorId" />
+      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/obtenerEmpleadoPorIdResponse" message="tns:obtenerEmpleadoPorIdResponse" />
     </operation>
   </portType>
   <binding name="EmpleadoWSPortBinding" type="tns:EmpleadoWS">

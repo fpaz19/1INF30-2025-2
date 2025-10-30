@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:tns="http://rrhh.services.softprog.pucp.edu.pe/" targetNamespace="http://rrhh.services.softprog.pucp.edu.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:tns="pe.edu.pucp.softprog.services" targetNamespace="pe.edu.pucp.softprog.services" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="eliminarArea" type="tns:eliminarArea" />
   <xs:element name="eliminarAreaResponse" type="tns:eliminarAreaResponse" />
   <xs:element name="insertarArea" type="tns:insertarArea" />

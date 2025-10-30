@@ -8,7 +8,8 @@ import pe.edu.pucp.softprog.rrhh.bo.EmpleadoBOImpl;
 import pe.edu.pucp.softprog.rrhh.boi.IEmpleadoBO;
 import pe.edu.pucp.softprog.rrhh.model.Empleado;
 
-@WebService(serviceName = "EmpleadoWS")
+@WebService(serviceName = "EmpleadoWS", 
+        targetNamespace = "pe.edu.pucp.softprog.services")
 public class EmpleadoWS {
 
     private IEmpleadoBO boEmpleado;

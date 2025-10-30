@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import pe.edu.pucp.softprog.rrhh.bo.AreaBOImpl;
 import pe.edu.pucp.softprog.rrhh.model.Area;
 
-@WebService(serviceName = "AreaWS")
+@WebService(serviceName = "AreaWS", 
+        targetNamespace = "pe.edu.pucp.softprog.services")
 public class AreaWS {
 
     private AreaBOImpl boArea;

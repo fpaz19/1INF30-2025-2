@@ -75,52 +75,53 @@ namespace SoftProgWA
 
         protected void btnGuardar_Click(object sender, EventArgs e)
         {
-            //boEmpleado = new EmpleadoBOImpl();
+            boEmpleado = new EmpleadoWSClient();
 
-            //empleado.DNI = txtDNIEmpleado.Text;
-            //empleado.Nombre = txtNombre.Text;
-            //empleado.ApellidoPaterno = txtApellidoPaterno.Text;
-            //Area area = new Area();
-            //area.IdArea = Int32.Parse(ddlAreas.SelectedValue);
-            //empleado.Area = area;
-            //try
-            //{
-            //    empleado.FechaNacimiento = DateTime.Parse(dtpFechaNacimiento.Value);
-            //}
-            //catch (Exception ex)
-            //{
-            //    mostrarMensajeError("Debe elegir una fecha de nacimiento.");
-            //    return;
-            //}
-            //if(!rbMasculino.Checked && !rbFemenino.Checked)
-            //{
-            //    mostrarMensajeError("Debe seleccionar un sexo.");
-            //    return;
-            //}    
-            //if (rbMasculino.Checked) empleado.Sexo = 'M';
-            //else if (rbFemenino.Checked) empleado.Sexo = 'F';
-            //try
-            //{
-            //    empleado.Sueldo = Double.Parse(txtSueldo.Text);
-            //}
-            //catch
-            //{
-            //    mostrarMensajeError("Debe colocar un valor apropiado para el sueldo.");
-            //    return;
-            //}
-            //empleado.Cargo = txtCargo.Text;
-            //try
-            //{
-            //    if (estado == Estado.Nuevo)
-            //        boEmpleado.insertar(empleado);
-            //    else if (estado == Estado.Modificar)
-            //        boEmpleado.modificar(empleado);
-            //}catch(Exception ex)
-            //{
-            //    mostrarMensajeError(ex.Message);
-            //    return;
-            //}
-            //Response.Redirect("ListarEmpleados.aspx");
+            empleado.dni = txtDNIEmpleado.Text;
+            empleado.nombre = txtNombre.Text;
+            empleado.apellidoPaterno = txtApellidoPaterno.Text;
+            area area = new area();
+            area.idArea = Int32.Parse(ddlAreas.SelectedValue);
+            empleado.area = area;
+            try
+            {
+                empleado.fechaNacimiento = DateTime.Parse(dtpFechaNacimiento.Value);
+                empleado.fechaNacimientoSpecified = true;
+            }
+            catch (Exception ex)
+            {
+                mostrarMensajeError("Debe elegir una fecha de nacimiento.");
+                return;
+            }
+            if(!rbMasculino.Checked && !rbFemenino.Checked)
+            {
+                mostrarMensajeError("Debe seleccionar un sexo.");
+                return;
+            }    
+            if (rbMasculino.Checked) empleado.sexo = 'M';
+            else if (rbFemenino.Checked) empleado.sexo = 'F';
+            try
+            {
+                empleado.sueldo = Double.Parse(txtSueldo.Text);
+            }
+            catch
+            {
+                mostrarMensajeError("Debe colocar un valor apropiado para el sueldo.");
+                return;
+            }
+            empleado.cargo = txtCargo.Text;
+            try
+            {
+                if (estado == Estado.Nuevo)
+                    boEmpleado.insertarEmpleado(empleado);
+                else if (estado == Estado.Modificar)
+                    boEmpleado.modificarEmpleado(empleado);
+            }catch(Exception ex)
+            {
+                mostrarMensajeError(ex.Message);
+                return;
+            }
+            Response.Redirect("ListarEmpleados.aspx");
         }
 
         protected void btnRegresar_Click(object sender, EventArgs e)

@@ -3,4 +3,8 @@
   <contractRef ref="http://localhost:8080/SoftProgWS/ServiceWS?WSDL" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
   <contractRef ref="http://localhost:8080/SoftProgWS/AreaWS?WSDL" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
   <contractRef ref="http://localhost:8080/SoftProgWS/EmpleadoWS?WSDL" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <contractRef ref="http://localhost:8080/SoftProgWS/CuentaUsuarioWS?WSDL" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <contractRef ref="http://localhost:8080/SoftProgWS/ClienteWS?WSDL" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <contractRef ref="http://localhost:8080/SoftProgWS/ProductoWS?WSDL" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <contractRef ref="http://localhost:8080/SoftProgWS/OrdenVentaWS?WSDL" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
 </discovery>

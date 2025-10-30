@@ -4,7 +4,7 @@ import jakarta.jws.WebService;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 
-@WebService(serviceName = "ServiceWS")
+@WebService(serviceName = "ServiceWS", targetNamespace = "pe.edu.pucp.softprog.services")
 public class ServiceWS {
 
     @WebMethod(operationName = "hello")

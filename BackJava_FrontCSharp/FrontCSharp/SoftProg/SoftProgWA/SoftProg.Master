@@ -38,6 +38,11 @@
                         <i class="fa-solid fa-users pe-2"></i>Gestionar Empleados
                     </a>
                 </li>
+                <li class="nav-item mb-1">
+                    <a href="RegistrarOrdenVenta.aspx">
+                        <i class="fa-solid fa-square-dollar pe-2"></i>Registrar Orden Venta
+                    </a>
+                </li>
             </ul>
             <hr />
             <div class="d-flex">

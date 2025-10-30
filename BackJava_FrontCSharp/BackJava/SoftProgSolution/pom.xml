@@ -11,6 +11,8 @@
         <module>../SoftProgDA</module>
         <module>../SoftProgBusiness</module>
         <module>../SoftProgWS</module>
+        <module>../SoftProgRS</module>
+        <module>../SoftProgClientREST</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

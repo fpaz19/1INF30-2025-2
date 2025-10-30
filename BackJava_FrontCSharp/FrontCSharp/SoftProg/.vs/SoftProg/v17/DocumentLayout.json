@@ -3,6 +3,37 @@
   "WorkspaceRootPath": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|c:\\repositorios\\1inf30-2025-2\\backjava_frontcsharp\\frontcsharp\\softprog\\softprogwa\\registrarordenventa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\registrarordenventa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\iniciosesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\iniciosesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\registrarordenventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\registrarordenventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\softprog.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\softprog.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\iniciosesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\iniciosesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SoftProgWA||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\registrarempleado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\registrarempleado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,7 +42,7 @@
       "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\listarempleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|c:\\repositorios\\1inf30-2025-2\\backjava_frontcsharp\\frontcsharp\\softprog\\softprogwa\\listarareas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\listarareas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\listarareas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,24 +54,12 @@
       "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\registrararea.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\registrarordenventa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\registrarordenventa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\listarempleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\listarempleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\registrarempleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\registrarempleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\softprogwa\\registrarordenventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EB0D2B42-BA1A-438B-BA5D-DAE1DEC3AE27}|SoftProgWA\\SoftProgWA.csproj|solutionrelative:softprogwa\\registrarordenventa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,33 +72,122 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "RegistrarOrdenVenta.aspx.cs",
               "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarOrdenVenta.aspx.cs",
               "RelativeDocumentMoniker": "SoftProgWA\\RegistrarOrdenVenta.aspx.cs",
               "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarOrdenVenta.aspx.cs",
               "RelativeToolTip": "SoftProgWA\\RegistrarOrdenVenta.aspx.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAOgAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAA0wFgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T20:21:27.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegistrarEmpleado.aspx.cs",
-              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarEmpleado.aspx.cs",
-              "RelativeDocumentMoniker": "SoftProgWA\\RegistrarEmpleado.aspx.cs",
-              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarEmpleado.aspx.cs",
-              "RelativeToolTip": "SoftProgWA\\RegistrarEmpleado.aspx.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAE0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T20:21:25.024Z",
+              "WhenOpened": "2025-10-22T20:21:27.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SoftProg.Master",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\SoftProg.Master",
+              "RelativeDocumentMoniker": "SoftProgWA\\SoftProg.Master",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\SoftProg.Master",
+              "RelativeToolTip": "SoftProgWA\\SoftProg.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-27T22:33:29.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InicioSesion.aspx.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\InicioSesion.aspx.cs",
+              "RelativeDocumentMoniker": "SoftProgWA\\InicioSesion.aspx.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\InicioSesion.aspx.cs",
+              "RelativeToolTip": "SoftProgWA\\InicioSesion.aspx.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIAxwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T22:43:50.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InicioSesion.aspx",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\InicioSesion.aspx",
+              "RelativeDocumentMoniker": "SoftProgWA\\InicioSesion.aspx",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\InicioSesion.aspx",
+              "RelativeToolTip": "SoftProgWA\\InicioSesion.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-27T22:33:07.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrarOrdenVenta.aspx",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarOrdenVenta.aspx",
+              "RelativeDocumentMoniker": "SoftProgWA\\RegistrarOrdenVenta.aspx",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarOrdenVenta.aspx",
+              "RelativeToolTip": "SoftProgWA\\RegistrarOrdenVenta.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-14T02:06:45.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\Home.aspx",
+              "RelativeDocumentMoniker": "SoftProgWA\\Home.aspx",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\Home.aspx",
+              "RelativeToolTip": "SoftProgWA\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-29T11:55:42.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistrarEmpleado.aspx.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarEmpleado.aspx.cs",
+              "RelativeDocumentMoniker": "SoftProgWA\\RegistrarEmpleado.aspx.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarEmpleado.aspx.cs",
+              "RelativeToolTip": "SoftProgWA\\RegistrarEmpleado.aspx.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T20:21:25.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\Web.config",
+              "RelativeDocumentMoniker": "SoftProgWA\\Web.config",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\Web.config",
+              "RelativeToolTip": "SoftProgWA\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-14T03:45:55.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SoftProgWA",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\SoftProgWA.csproj",
+              "RelativeDocumentMoniker": "SoftProgWA\\SoftProgWA.csproj",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\SoftProgWA.csproj",
+              "RelativeToolTip": "SoftProgWA\\SoftProgWA.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-27T22:42:23.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RegistrarArea.aspx.cs",
               "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarArea.aspx.cs",
               "RelativeDocumentMoniker": "SoftProgWA\\RegistrarArea.aspx.cs",
@@ -91,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "ListarEmpleados.aspx.cs",
               "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\ListarEmpleados.aspx.cs",
               "RelativeDocumentMoniker": "SoftProgWA\\ListarEmpleados.aspx.cs",
@@ -99,12 +207,11 @@
               "RelativeToolTip": "SoftProgWA\\ListarEmpleados.aspx.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAUwDcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T20:20:33.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T20:20:33.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ListarAreas.aspx.cs",
               "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\ListarAreas.aspx.cs",
               "RelativeDocumentMoniker": "SoftProgWA\\ListarAreas.aspx.cs",
@@ -112,12 +219,11 @@
               "RelativeToolTip": "SoftProgWA\\ListarAreas.aspx.cs",
               "ViewState": "AgIAABEAAAAAAAAAAEBAwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T20:19:41.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T20:19:41.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "RegistrarArea.aspx",
               "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarArea.aspx",
               "RelativeDocumentMoniker": "SoftProgWA\\RegistrarArea.aspx",
@@ -129,20 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\Web.config",
-              "RelativeDocumentMoniker": "SoftProgWA\\Web.config",
-              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\Web.config",
-              "RelativeToolTip": "SoftProgWA\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvzwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-14T03:45:55.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ListarEmpleados.aspx",
               "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\ListarEmpleados.aspx",
               "RelativeDocumentMoniker": "SoftProgWA\\ListarEmpleados.aspx",
@@ -154,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "RegistrarEmpleado.aspx",
               "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarEmpleado.aspx",
               "RelativeDocumentMoniker": "SoftProgWA\\RegistrarEmpleado.aspx",
@@ -163,18 +256,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-10-14T02:15:54.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegistrarOrdenVenta.aspx",
-              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarOrdenVenta.aspx",
-              "RelativeDocumentMoniker": "SoftProgWA\\RegistrarOrdenVenta.aspx",
-              "ToolTip": "C:\\Repositorios\\1INF30-2025-2\\BackJava_FrontCSharp\\FrontCSharp\\SoftProg\\SoftProgWA\\RegistrarOrdenVenta.aspx",
-              "RelativeToolTip": "SoftProgWA\\RegistrarOrdenVenta.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-14T02:06:45.983Z"
             }
           ]
         }

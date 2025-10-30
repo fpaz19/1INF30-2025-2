@@ -75,8 +75,24 @@
     <None Include="Connected Services\SoftProgServices\AreaWS.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Connected Services\SoftProgServices\ClienteWS.wsdl" />
+    <None Include="Connected Services\SoftProgServices\ClienteWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\SoftProgServices\CuentaUsuarioWS.wsdl" />
+    <None Include="Connected Services\SoftProgServices\CuentaUsuarioWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\SoftProgServices\EmpleadoWS.wsdl" />
     <None Include="Connected Services\SoftProgServices\EmpleadoWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\SoftProgServices\OrdenVentaWS.wsdl" />
+    <None Include="Connected Services\SoftProgServices\OrdenVentaWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\SoftProgServices\ProductoWS.wsdl" />
+    <None Include="Connected Services\SoftProgServices\ProductoWS.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\SoftProgServices\referencias.disco" />
@@ -130,6 +146,7 @@
     <Content Include="Home.aspx" />
     <Content Include="Images\pucp.png" />
     <Content Include="index.html" />
+    <Content Include="InicioSesion.aspx" />
     <Content Include="ListarAreas.aspx" />
     <Content Include="ListarEmpleados.aspx" />
     <Content Include="RegistrarArea.aspx" />
@@ -211,6 +228,24 @@
     <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.obtenerEmpleadoPorIdResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.verificarCuentaUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.cliente.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.insertarOrdenVentaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.listarClientesPorDNIoNombreResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.listarProductosPorNombreResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.producto.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -234,6 +269,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InicioSesion.aspx.cs">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioSesion.aspx.designer.cs">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListarAreas.aspx.cs">
       <DependentUpon>ListarAreas.aspx</DependentUpon>
