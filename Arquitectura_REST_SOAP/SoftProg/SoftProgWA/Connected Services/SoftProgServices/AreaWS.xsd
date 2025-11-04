@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="pe.edu.pucp.softprog.services" targetNamespace="pe.edu.pucp.softprog.services" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="eliminarArea" type="tns:eliminarArea" />
+  <xs:element name="eliminarAreaResponse" type="tns:eliminarAreaResponse" />
+  <xs:element name="insertarArea" type="tns:insertarArea" />
+  <xs:element name="insertarAreaResponse" type="tns:insertarAreaResponse" />
+  <xs:element name="listarAreasTodas" type="tns:listarAreasTodas" />
+  <xs:element name="listarAreasTodasResponse" type="tns:listarAreasTodasResponse" />
+  <xs:element name="modificarArea" type="tns:modificarArea" />
+  <xs:element name="modificarAreaResponse" type="tns:modificarAreaResponse" />
+  <xs:element name="obtenerAreaPorId" type="tns:obtenerAreaPorId" />
+  <xs:element name="obtenerAreaPorIdResponse" type="tns:obtenerAreaPorIdResponse" />
+  <xs:complexType name="listarAreasTodas">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarAreasTodasResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:area" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="area">
+    <xs:sequence>
+      <xs:element name="activo" type="xs:boolean" />
+      <xs:element name="idArea" type="xs:int" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarArea">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarAreaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerAreaPorId">
+    <xs:sequence>
+      <xs:element name="idArea" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerAreaPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:area" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarArea">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:area" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarAreaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarArea">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:area" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarAreaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
