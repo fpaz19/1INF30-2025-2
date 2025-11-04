@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="d5efedad-6840-4bde-aa16-60a78042dde1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/SoftProgWS/referencias.disco" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="referencias.disco" MetadataType="Disco" ID="9a952169-29be-4e3f-af66-a1c0c3e446b5" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/referencias.disco" />
+    <MetadataFile FileName="ClienteWS.wsdl" MetadataType="Wsdl" ID="240db3d6-b314-4816-bdb5-654bbf459cac" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ClienteWS?WSDL" />
+    <MetadataFile FileName="CuentaUsuarioWS.xsd" MetadataType="Schema" ID="b9a6d548-7d44-41ff-b1fe-c453b6c060d7" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/CuentaUsuarioWS?xsd=1" />
+    <MetadataFile FileName="EmpleadoWS.xsd" MetadataType="Schema" ID="6b70f1f0-ff9e-4ba3-80f7-f2f888879077" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/EmpleadoWS?xsd=1" />
+    <MetadataFile FileName="ProductoWS.xsd" MetadataType="Schema" ID="953f8c0a-d8f0-40ce-b71b-a4fbbde7834c" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ProductoWS?xsd=1" />
+    <MetadataFile FileName="OrdenVentaWS.wsdl" MetadataType="Wsdl" ID="94eef893-359f-475f-9d12-133fdd5f60bc" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/OrdenVentaWS?WSDL" />
+    <MetadataFile FileName="ClienteWS.xsd" MetadataType="Schema" ID="dd2413ec-fb86-4616-af33-e9d736660443" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ClienteWS?xsd=1" />
+    <MetadataFile FileName="CuentaUsuarioWS.wsdl" MetadataType="Wsdl" ID="b9b0860e-efd5-430b-b16d-f6fddc33209a" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/CuentaUsuarioWS?WSDL" />
+    <MetadataFile FileName="EmpleadoWS.wsdl" MetadataType="Wsdl" ID="c96067bc-5aef-4ca0-b9df-3b230c012eb3" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/EmpleadoWS?WSDL" />
+    <MetadataFile FileName="OrdenVentaWS.xsd" MetadataType="Schema" ID="359e2e3f-8f10-441c-a18a-9dd1d038a595" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/OrdenVentaWS?xsd=1" />
+    <MetadataFile FileName="AreaWS.xsd" MetadataType="Schema" ID="1a15e761-484d-4fc2-97b7-0a2540f504c6" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/AreaWS?xsd=1" />
+    <MetadataFile FileName="ProductoWS.wsdl" MetadataType="Wsdl" ID="08341d59-16e4-434c-8060-6b031e65f999" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ProductoWS?WSDL" />
+    <MetadataFile FileName="AreaWS.wsdl" MetadataType="Wsdl" ID="9b41160e-6d70-44a0-a96f-319304de9d3c" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/AreaWS?WSDL" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

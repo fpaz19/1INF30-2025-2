@@ -1,9 +1,0 @@
-pe\edu\pucp\softprog\rrhh\model\Area.class
-pe\edu\pucp\softprog\rrhh\model\Empleado.class
-pe\edu\pucp\softprog\gestclientes\model\Cliente.class
-pe\edu\pucp\softprog\rrhh\model\Persona.class
-pe\edu\pucp\softprog\gestclientes\model\Categoria.class
-pe\edu\pucp\softprog\rrhh\model\CuentaUsuario.class
-pe\edu\pucp\softprog\ventas\model\LineaOrdenVenta.class
-pe\edu\pucp\softprog\almacen\model\Producto.class
-pe\edu\pucp\softprog\ventas\model\OrdenVenta.class
