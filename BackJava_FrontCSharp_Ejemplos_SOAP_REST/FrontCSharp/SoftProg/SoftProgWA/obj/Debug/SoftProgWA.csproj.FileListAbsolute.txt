@@ -35,3 +35,17 @@ C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\FrontCSharp\SoftProg\SoftProg
 C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\FrontCSharp\SoftProg\SoftProgWA\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\FrontCSharp\SoftProg\SoftProgWA\bin\System.Threading.Tasks.Extensions.xml
 C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp\FrontCSharp\SoftProg\SoftProgWA\obj\Debug\SoftProgWA.csproj.Up2Date
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\bin\SoftProgWA.dll.config
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\bin\SoftProgWA.dll
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\bin\SoftProgWA.pdb
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\bin\System.Threading.Tasks.Extensions.dll
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\bin\System.Memory.dll
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\bin\System.Numerics.Vectors.dll
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\bin\System.Threading.Tasks.Extensions.xml
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\obj\Debug\SoftProgWA.csproj.AssemblyReference.cache
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\obj\Debug\SoftProgWA.csproj.CoreCompileInputs.cache
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\obj\Debug\SoftProgWA.csproj.Up2Date
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\obj\Debug\SoftProgWA.dll
+C:\Repositorios\1INF30-2025-2\BackJava_FrontCSharp_Ejemplos_SOAP_REST\FrontCSharp\SoftProg\SoftProgWA\obj\Debug\SoftProgWA.pdb

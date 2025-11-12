@@ -238,8 +238,7 @@ namespace SoftProgWA
             ordenVenta.cliente = cliente;
             ordenVenta.lineasOrdenVenta = lineasOrdenVenta.ToArray();
             ////ordenVenta.Empleado = (Empleado)Session["Empleado"];
-            ordenVenta.empleado = new empleado();
-            ordenVenta.empleado.idPersona = 2;
+            ordenVenta.empleado = (empleado)Session["empleadoLog"];
 
             calcularTotal();
 

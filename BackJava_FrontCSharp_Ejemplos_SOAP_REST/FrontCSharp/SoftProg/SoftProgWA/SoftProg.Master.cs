@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SoftProgWA.SoftProgServices;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,6 +10,12 @@ namespace SoftProgWA
 {
     public partial class SoftProg : System.Web.UI.MasterPage
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            empleado emp = (empleado)Session["empleadoLog"];
+            lblNombreCompleto
+                .Text = emp.nombre + " " + emp.apellidoPaterno;
 
+        }
     }
 }

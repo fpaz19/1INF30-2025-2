@@ -12,6 +12,7 @@ namespace SoftProgWA
     public partial class InicioSesion : System.Web.UI.Page
     {
         private CuentaUsuarioWSClient boCuentaUsuario;
+        private EmpleadoWSClient boEmpleado;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -27,15 +28,15 @@ namespace SoftProgWA
 
             boCuentaUsuario = new CuentaUsuarioWSClient();
 
-            int resultado = 
-                boCuentaUsuario.
-                verificarCuentaUsuario
-                (cu);
+            int resultado = boCuentaUsuario.verificarCuentaUsuario(cu);
 
             txtUsername.Text = resultado.ToString();
 
             if (resultado != 0)
             {
+                boEmpleado = new EmpleadoWSClient();
+                empleado empleadoLog = boEmpleado.obtenerEmpleadoPorId(resultado);
+                Session["empleadoLog"] = empleadoLog;
                 FormsAuthenticationTicket tkt;
                 string cookiestr;
                 HttpCookie ck;
