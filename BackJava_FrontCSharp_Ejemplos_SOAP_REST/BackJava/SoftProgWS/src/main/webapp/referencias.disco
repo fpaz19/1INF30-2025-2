@@ -6,5 +6,6 @@
   <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/" ref="http://localhost:8080/SoftProgWS/ClienteWS?WSDL"/> 
   <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/" ref="http://localhost:8080/SoftProgWS/ProductoWS?WSDL"/>
   <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/" ref="http://localhost:8080/SoftProgWS/OrdenVentaWS?WSDL"/>
+  <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/" ref="http://localhost:8080/SoftProgWS/ReporteWS?WSDL"/>
 </discovery>
 

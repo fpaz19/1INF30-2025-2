@@ -1,8 +1,0 @@
-pe\edu\pucp\softprog\services\ventas\OrdenVentaWS.class
-pe\edu\pucp\softprog\servlets\ReporteEjemplo.class
-pe\edu\pucp\softprog\services\rrhh\CuentaUsuarioWS.class
-pe\edu\pucp\softprog\services\ServiceWS.class
-pe\edu\pucp\softprog\services\rrhh\AreaWS.class
-pe\edu\pucp\softprog\services\gestclientes\ClienteWS.class
-pe\edu\pucp\softprog\services\almacen\ProductoWS.class
-pe\edu\pucp\softprog\services\rrhh\EmpleadoWS.class

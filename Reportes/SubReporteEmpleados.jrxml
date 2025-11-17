@@ -1,0 +1,96 @@
+<!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
+<jasperReport name="SubReporteEmpleados" language="java" columnCount="1" pageWidth="595" pageHeight="842" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="c0d5eb60-839f-4326-a577-6a80253bec2f">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Conexion MySQL PROG3"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="135"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="860"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="fid_area" class="java.lang.Integer"/>
+	<query language="sql"><![CDATA[SELECT p.id_persona,
+p.DNI, p.nombre, p.apellido_paterno,
+e.sueldo FROM empleado e INNER JOIN persona p ON
+p.id_persona = e.id_empleado WHERE e.fid_area = $P{fid_area}]]></query>
+	<field name="id_persona" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id_persona"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_persona"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="persona"/>
+	</field>
+	<field name="DNI" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="DNI"/>
+		<property name="com.jaspersoft.studio.field.label" value="DNI"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="persona"/>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.label" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="persona"/>
+	</field>
+	<field name="apellido_paterno" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="apellido_paterno"/>
+		<property name="com.jaspersoft.studio.field.label" value="apellido_paterno"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="persona"/>
+	</field>
+	<field name="sueldo" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="sueldo"/>
+		<property name="com.jaspersoft.studio.field.label" value="sueldo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="empleado"/>
+	</field>
+	<variable name="total" calculation="Sum" class="java.math.BigDecimal">
+		<expression><![CDATA[$F{sueldo}]]></expression>
+	</variable>
+	<columnHeader height="17" splitType="Stretch">
+		<element kind="staticText" uuid="f27b41bc-a7fc-4900-85ee-935d91b1a177" x="10" y="0" width="50" height="16" bold="true">
+			<text><![CDATA[ID]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="081a309f-9169-4592-8ea8-61a690d6ed5b"/>
+		</element>
+		<element kind="staticText" uuid="c462340c-288f-427a-94af-7408f816c6c6" x="187" y="0" width="100" height="17" bold="true">
+			<text><![CDATA[Nombre Completo]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="83845eb3-4cd2-4846-9a34-605e02ec6ce2"/>
+		</element>
+		<element kind="staticText" uuid="d1749ac1-c945-4470-bc37-2f62e7288a05" x="80" y="0" width="100" height="17" bold="true">
+			<text><![CDATA[DNI]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2ae051ae-a37f-4cee-a232-dc1260499bc4"/>
+		</element>
+		<element kind="staticText" uuid="6d56f645-63e9-46e9-b350-3208ff00cd82" x="380" y="0" width="100" height="17" bold="true">
+			<text><![CDATA[Sueldo]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6358cff1-a763-420e-9298-2f167e9d6693"/>
+		</element>
+		<element kind="line" uuid="2eefc8b8-812c-42a5-b207-b81a8883e570" x="6" y="16" width="474" height="1"/>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<element kind="textField" uuid="3dd316d2-4cde-4ee4-90e7-e1ca7fd414f4" x="10" y="0" width="50" height="20" bold="true">
+				<expression><![CDATA[$F{id_persona}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="081a309f-9169-4592-8ea8-61a690d6ed5b"/>
+			</element>
+			<element kind="textField" uuid="eb77adb1-0198-4b0b-ba75-ee4c82d3e75d" x="187" y="0" width="180" height="20">
+				<expression><![CDATA[$F{nombre} + " " + $F{apellido_paterno}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="83845eb3-4cd2-4846-9a34-605e02ec6ce2"/>
+			</element>
+			<element kind="textField" uuid="b5ef400c-c641-4b9e-b4be-5d0184da0fef" x="80" y="0" width="100" height="20">
+				<expression><![CDATA[$F{DNI}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2ae051ae-a37f-4cee-a232-dc1260499bc4"/>
+			</element>
+			<element kind="textField" uuid="8f591db1-f6c9-4caa-acba-a5e5eb3ffc8d" x="380" y="0" width="100" height="20" pattern="¤#,##0.00;¤-#,##0.00">
+				<expression><![CDATA[$F{sueldo}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6358cff1-a763-420e-9298-2f167e9d6693"/>
+			</element>
+		</band>
+	</detail>
+	<columnFooter height="21" splitType="Stretch">
+		<element kind="textField" uuid="b3774b43-01b5-4814-a454-b6fa13f6798c" x="380" y="0" width="100" height="20" pattern="¤#,##0.00;¤-#,##0.00" bold="true">
+			<expression><![CDATA[IF($V{total}==null,"",$V{total})]]></expression>
+		</element>
+		<element kind="textField" uuid="a73ff822-c622-4929-900b-ba8f759c530c" x="97" y="0" width="280" height="20" bold="true">
+			<expression><![CDATA[IF($V{total}==null,"No hay empleados registrados en esta area","")]]></expression>
+		</element>
+	</columnFooter>
+</jasperReport>

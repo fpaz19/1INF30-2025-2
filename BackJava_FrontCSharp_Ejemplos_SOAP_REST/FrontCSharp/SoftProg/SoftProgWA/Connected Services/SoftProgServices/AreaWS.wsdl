@@ -11,11 +11,11 @@
   <message name="obtenerAreaPorIdResponse">
     <part name="parameters" element="tns:obtenerAreaPorIdResponse" />
   </message>
-  <message name="modificarArea">
-    <part name="parameters" element="tns:modificarArea" />
+  <message name="eliminarArea">
+    <part name="parameters" element="tns:eliminarArea" />
   </message>
-  <message name="modificarAreaResponse">
-    <part name="parameters" element="tns:modificarAreaResponse" />
+  <message name="eliminarAreaResponse">
+    <part name="parameters" element="tns:eliminarAreaResponse" />
   </message>
   <message name="insertarArea">
     <part name="parameters" element="tns:insertarArea" />
@@ -23,11 +23,11 @@
   <message name="insertarAreaResponse">
     <part name="parameters" element="tns:insertarAreaResponse" />
   </message>
-  <message name="eliminarArea">
-    <part name="parameters" element="tns:eliminarArea" />
+  <message name="modificarArea">
+    <part name="parameters" element="tns:modificarArea" />
   </message>
-  <message name="eliminarAreaResponse">
-    <part name="parameters" element="tns:eliminarAreaResponse" />
+  <message name="modificarAreaResponse">
+    <part name="parameters" element="tns:modificarAreaResponse" />
   </message>
   <message name="listarAreasTodas">
     <part name="parameters" element="tns:listarAreasTodas" />
@@ -40,17 +40,17 @@
       <input wsam:Action="pe.edu.pucp.softprog.services/AreaWS/obtenerAreaPorIdRequest" message="tns:obtenerAreaPorId" />
       <output wsam:Action="pe.edu.pucp.softprog.services/AreaWS/obtenerAreaPorIdResponse" message="tns:obtenerAreaPorIdResponse" />
     </operation>
-    <operation name="modificarArea">
-      <input wsam:Action="pe.edu.pucp.softprog.services/AreaWS/modificarAreaRequest" message="tns:modificarArea" />
-      <output wsam:Action="pe.edu.pucp.softprog.services/AreaWS/modificarAreaResponse" message="tns:modificarAreaResponse" />
+    <operation name="eliminarArea">
+      <input wsam:Action="pe.edu.pucp.softprog.services/AreaWS/eliminarAreaRequest" message="tns:eliminarArea" />
+      <output wsam:Action="pe.edu.pucp.softprog.services/AreaWS/eliminarAreaResponse" message="tns:eliminarAreaResponse" />
     </operation>
     <operation name="insertarArea">
       <input wsam:Action="pe.edu.pucp.softprog.services/AreaWS/insertarAreaRequest" message="tns:insertarArea" />
       <output wsam:Action="pe.edu.pucp.softprog.services/AreaWS/insertarAreaResponse" message="tns:insertarAreaResponse" />
     </operation>
-    <operation name="eliminarArea">
-      <input wsam:Action="pe.edu.pucp.softprog.services/AreaWS/eliminarAreaRequest" message="tns:eliminarArea" />
-      <output wsam:Action="pe.edu.pucp.softprog.services/AreaWS/eliminarAreaResponse" message="tns:eliminarAreaResponse" />
+    <operation name="modificarArea">
+      <input wsam:Action="pe.edu.pucp.softprog.services/AreaWS/modificarAreaRequest" message="tns:modificarArea" />
+      <output wsam:Action="pe.edu.pucp.softprog.services/AreaWS/modificarAreaResponse" message="tns:modificarAreaResponse" />
     </operation>
     <operation name="listarAreasTodas">
       <input wsam:Action="pe.edu.pucp.softprog.services/AreaWS/listarAreasTodasRequest" message="tns:listarAreasTodas" />
@@ -68,7 +68,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="modificarArea">
+    <operation name="eliminarArea">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -86,7 +86,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="eliminarArea">
+    <operation name="modificarArea">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />

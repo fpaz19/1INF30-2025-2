@@ -5,17 +5,11 @@
       <xsd:import schemaLocation="http://localhost:8080/SoftProgWS/EmpleadoWS?xsd=1" namespace="pe.edu.pucp.softprog.services" />
     </xsd:schema>
   </types>
-  <message name="listarEmpleadosTodos">
-    <part name="parameters" element="tns:listarEmpleadosTodos" />
+  <message name="obtenerEmpleadoPorId">
+    <part name="parameters" element="tns:obtenerEmpleadoPorId" />
   </message>
-  <message name="listarEmpleadosTodosResponse">
-    <part name="parameters" element="tns:listarEmpleadosTodosResponse" />
-  </message>
-  <message name="insertarEmpleado">
-    <part name="parameters" element="tns:insertarEmpleado" />
-  </message>
-  <message name="insertarEmpleadoResponse">
-    <part name="parameters" element="tns:insertarEmpleadoResponse" />
+  <message name="obtenerEmpleadoPorIdResponse">
+    <part name="parameters" element="tns:obtenerEmpleadoPorIdResponse" />
   </message>
   <message name="modificarEmpleado">
     <part name="parameters" element="tns:modificarEmpleado" />
@@ -29,20 +23,22 @@
   <message name="eliminarEmpleadoResponse">
     <part name="parameters" element="tns:eliminarEmpleadoResponse" />
   </message>
-  <message name="obtenerEmpleadoPorId">
-    <part name="parameters" element="tns:obtenerEmpleadoPorId" />
+  <message name="listarEmpleadosTodos">
+    <part name="parameters" element="tns:listarEmpleadosTodos" />
   </message>
-  <message name="obtenerEmpleadoPorIdResponse">
-    <part name="parameters" element="tns:obtenerEmpleadoPorIdResponse" />
+  <message name="listarEmpleadosTodosResponse">
+    <part name="parameters" element="tns:listarEmpleadosTodosResponse" />
+  </message>
+  <message name="insertarEmpleado">
+    <part name="parameters" element="tns:insertarEmpleado" />
+  </message>
+  <message name="insertarEmpleadoResponse">
+    <part name="parameters" element="tns:insertarEmpleadoResponse" />
   </message>
   <portType name="EmpleadoWS">
-    <operation name="listarEmpleadosTodos">
-      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/listarEmpleadosTodosRequest" message="tns:listarEmpleadosTodos" />
-      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/listarEmpleadosTodosResponse" message="tns:listarEmpleadosTodosResponse" />
-    </operation>
-    <operation name="insertarEmpleado">
-      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/insertarEmpleadoRequest" message="tns:insertarEmpleado" />
-      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/insertarEmpleadoResponse" message="tns:insertarEmpleadoResponse" />
+    <operation name="obtenerEmpleadoPorId">
+      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/obtenerEmpleadoPorIdRequest" message="tns:obtenerEmpleadoPorId" />
+      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/obtenerEmpleadoPorIdResponse" message="tns:obtenerEmpleadoPorIdResponse" />
     </operation>
     <operation name="modificarEmpleado">
       <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/modificarEmpleadoRequest" message="tns:modificarEmpleado" />
@@ -52,23 +48,18 @@
       <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/eliminarEmpleadoRequest" message="tns:eliminarEmpleado" />
       <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/eliminarEmpleadoResponse" message="tns:eliminarEmpleadoResponse" />
     </operation>
-    <operation name="obtenerEmpleadoPorId">
-      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/obtenerEmpleadoPorIdRequest" message="tns:obtenerEmpleadoPorId" />
-      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/obtenerEmpleadoPorIdResponse" message="tns:obtenerEmpleadoPorIdResponse" />
+    <operation name="listarEmpleadosTodos">
+      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/listarEmpleadosTodosRequest" message="tns:listarEmpleadosTodos" />
+      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/listarEmpleadosTodosResponse" message="tns:listarEmpleadosTodosResponse" />
+    </operation>
+    <operation name="insertarEmpleado">
+      <input wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/insertarEmpleadoRequest" message="tns:insertarEmpleado" />
+      <output wsam:Action="pe.edu.pucp.softprog.services/EmpleadoWS/insertarEmpleadoResponse" message="tns:insertarEmpleadoResponse" />
     </operation>
   </portType>
   <binding name="EmpleadoWSPortBinding" type="tns:EmpleadoWS">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <operation name="listarEmpleadosTodos">
-      <soap:operation soapAction="" />
-      <input>
-        <soap:body use="literal" />
-      </input>
-      <output>
-        <soap:body use="literal" />
-      </output>
-    </operation>
-    <operation name="insertarEmpleado">
+    <operation name="obtenerEmpleadoPorId">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -95,7 +86,16 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="obtenerEmpleadoPorId">
+    <operation name="listarEmpleadosTodos">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarEmpleado">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />

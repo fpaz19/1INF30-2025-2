@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Instaladores\Front</_PublishTargetUrl>
+    <History>True|2025-11-12T19:39:21.5944727Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="bin/SoftProgWA.dll">
+      <publishTime>11/12/2025 14:39:20</publishTime>
+    </File>
+    <File Include="bin/SoftProgWA.pdb">
+      <publishTime>11/12/2025 14:39:20</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.area.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.cliente.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.eliminarAreaResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.eliminarEmpleadoResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.empleado.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.helloResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.insertarAreaResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.insertarEmpleadoResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.insertarOrdenVentaResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.listarAreasTodasResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.listarClientesPorDNIoNombreResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.listarEmpleadosTodosResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.listarProductosPorNombreResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.modificarAreaResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.modificarEmpleadoResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.obtenerAreaPorIdResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.obtenerEmpleadoPorIdResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.producto.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.restarResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.sumarResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Connected Services/SoftProgServices/SoftProgWA.SoftProgServices.verificarCuentaUsuarioResponse.datasource">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Content/site.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/all.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/all.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/brands.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/brands.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/duotone.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/duotone.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/fontawesome.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/fontawesome.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/light.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/light.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/regular.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/regular.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/solid.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/solid.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/svg-with-js.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/svg-with-js.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/thin.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/thin.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/v4-font-face.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/v4-font-face.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/v4-shims.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/v4-shims.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/v5-font-face.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/css/v5-font-face.min.css">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-brands-400.ttf">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-brands-400.woff">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-brands-400.woff2">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-duotone-900.ttf">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-duotone-900.woff">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-duotone-900.woff2">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-light-300.ttf">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-light-300.woff">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-light-300.woff2">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-regular-400.ttf">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-regular-400.woff">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-regular-400.woff2">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-solid-900.ttf">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-solid-900.woff">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-solid-900.woff2">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-thin-100.ttf">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-thin-100.woff">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-thin-100.woff2">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-v4compatibility.ttf">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Fonts/webfonts/fa-v4compatibility.woff2">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Images/pucp.png">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="InicioSesion.aspx">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="ListarAreas.aspx">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="ListarEmpleados.aspx">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="RegistrarArea.aspx">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="RegistrarEmpleado.aspx">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="RegistrarOrdenVenta.aspx">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.1.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.1.min.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.1.min.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.1.slim.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.1.slim.min.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.1.slim.min.map">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/SoftProg/iniciarSesion.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/SoftProg/registrarArea.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/SoftProg/registrarEmpleado.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Scripts/SoftProg/registrarOrdenVenta.js">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="SoftProg.Master">
+      <publishTime>11/04/2025 12:54:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/12/2025 14:39:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -22,8 +22,10 @@
     <MetadataSource Address="http://localhost:8080/SoftProgWS/referencias.disco" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
+    <MetadataFile FileName="ReporteWS.xsd" MetadataType="Schema" ID="474212ee-f581-4979-b7dc-cef8484dbf7f" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ReporteWS?xsd=1" />
     <MetadataFile FileName="referencias.disco" MetadataType="Disco" ID="9a952169-29be-4e3f-af66-a1c0c3e446b5" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/referencias.disco" />
     <MetadataFile FileName="ClienteWS.wsdl" MetadataType="Wsdl" ID="1b45c424-8535-401b-b520-654c69ee0bf7" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ClienteWS?WSDL" />
+    <MetadataFile FileName="ReporteWS.wsdl" MetadataType="Wsdl" ID="38eb9e1e-627b-488d-9935-93e9866c132c" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ReporteWS?WSDL" />
     <MetadataFile FileName="ServiceWS.xsd" MetadataType="Schema" ID="ff8772b7-e0a5-4932-ad11-8af3af13f007" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/ServiceWS?xsd=1" />
     <MetadataFile FileName="CuentaUsuarioWS.xsd" MetadataType="Schema" ID="19f43717-a2bb-44f4-bea1-02dfb0f57ae0" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/CuentaUsuarioWS?xsd=1" />
     <MetadataFile FileName="EmpleadoWS.xsd" MetadataType="Schema" ID="5480e7b8-3398-418d-b018-62b4a1a3572a" SourceId="1" SourceUrl="http://localhost:8080/SoftProgWS/EmpleadoWS?xsd=1" />

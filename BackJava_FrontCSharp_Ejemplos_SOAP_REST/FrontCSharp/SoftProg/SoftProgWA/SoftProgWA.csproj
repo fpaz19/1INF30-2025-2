@@ -179,6 +179,10 @@
     <Content Include="Fonts\webfonts\fa-v4compatibility.ttf" />
     <Content Include="Fonts\webfonts\fa-v4compatibility.woff2" />
     <None Include="Connected Services\SoftProgServices\AreaWS.wsdl" />
+    <None Include="Connected Services\SoftProgServices\ReporteWS.wsdl" />
+    <None Include="Connected Services\SoftProgServices\ReporteWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\SoftProgServices\ServiceWS.wsdl" />
     <None Include="Connected Services\SoftProgServices\ServiceWS.xsd">
       <SubType>Designer</SubType>
@@ -246,6 +250,9 @@
     <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.producto.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Connected Services\SoftProgServices\SoftProgWA.SoftProgServices.generarReporteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -255,6 +262,7 @@
     <Content Include="Scripts\SoftProg\registrarArea.js" />
     <Content Include="Scripts\SoftProg\registrarEmpleado.js" />
     <Content Include="Scripts\SoftProg\registrarOrdenVenta.js" />
+    <Content Include="VisualizarReporte.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -320,6 +328,13 @@
     </Compile>
     <Compile Include="SoftProg.Master.designer.cs">
       <DependentUpon>SoftProg.Master</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizarReporte.aspx.cs">
+      <DependentUpon>VisualizarReporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VisualizarReporte.aspx.designer.cs">
+      <DependentUpon>VisualizarReporte.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
