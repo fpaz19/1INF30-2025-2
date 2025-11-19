@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|c:\\repositorios\\1inf30-2025-1\\ejemplosconcurrencia\\csharp\\ejemplosemaforos\\ejemplosemaforos\\ejemplosemaforos\\frmejemplosemaforos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|solutionrelative:ejemplosemaforos\\frmejemplosemaforos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|c:\\repositorios\\1inf30-2025-1\\ejemplosconcurrencia\\csharp\\ejemplosemaforos\\ejemplosemaforos\\ejemplosemaforos\\frmejemplosemaforos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|solutionrelative:ejemplosemaforos\\frmejemplosemaforos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|c:\\repositorios\\1inf30-2025-1\\ejemplosconcurrencia\\csharp\\ejemplosemaforos\\ejemplosemaforos\\ejemplosemaforos\\frmejemplosemaforos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|solutionrelative:ejemplosemaforos\\frmejemplosemaforos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|c:\\repositorios\\1inf30-2025-1\\ejemplosconcurrencia\\csharp\\ejemplosemaforos\\ejemplosemaforos\\ejemplosemaforos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|solutionrelative:ejemplosemaforos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|c:\\repositorios\\1inf30-2025-1\\ejemplosconcurrencia\\csharp\\ejemplosemaforos\\ejemplosemaforos\\ejemplosemaforos\\consumidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|solutionrelative:ejemplosemaforos\\consumidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|c:\\repositorios\\1inf30-2025-1\\ejemplosconcurrencia\\csharp\\ejemplosemaforos\\ejemplosemaforos\\ejemplosemaforos\\elemento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528F8467-5FDD-4EEE-B7CA-23030C94533C}|EjemploSemaforos\\EjemploSemaforos.csproj|solutionrelative:ejemplosemaforos\\elemento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmEjemploSemaforos.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\frmEjemploSemaforos.cs",
+              "RelativeDocumentMoniker": "EjemploSemaforos\\frmEjemploSemaforos.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\frmEjemploSemaforos.cs",
+              "RelativeToolTip": "EjemploSemaforos\\frmEjemploSemaforos.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:17:46.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmEjemploSemaforos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\frmEjemploSemaforos.cs",
+              "RelativeDocumentMoniker": "EjemploSemaforos\\frmEjemploSemaforos.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\frmEjemploSemaforos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EjemploSemaforos\\frmEjemploSemaforos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:17:42.417Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\Program.cs",
+              "RelativeDocumentMoniker": "EjemploSemaforos\\Program.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\Program.cs",
+              "RelativeToolTip": "EjemploSemaforos\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:17:30.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Consumidor.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\Consumidor.cs",
+              "RelativeDocumentMoniker": "EjemploSemaforos\\Consumidor.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\Consumidor.cs",
+              "RelativeToolTip": "EjemploSemaforos\\Consumidor.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:17:21.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Elemento.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\Elemento.cs",
+              "RelativeDocumentMoniker": "EjemploSemaforos\\Elemento.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\Elemento.cs",
+              "RelativeToolTip": "EjemploSemaforos\\Elemento.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:17:16.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmEjemploSemaforos.Designer.cs",
+              "DocumentMoniker": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\frmEjemploSemaforos.Designer.cs",
+              "RelativeDocumentMoniker": "EjemploSemaforos\\frmEjemploSemaforos.Designer.cs",
+              "ToolTip": "C:\\Repositorios\\1INF30-2025-1\\EjemplosConcurrencia\\CSharp\\EjemploSemaforos\\EjemploSemaforos\\EjemploSemaforos\\frmEjemploSemaforos.Designer.cs",
+              "RelativeToolTip": "EjemploSemaforos\\frmEjemploSemaforos.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:17:07.753Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
